@@ -79,4 +79,4 @@ user_groups:
   - Principal Investigators
 ---
 
-I am a Bachelor of Science in Computer Science from Federal University of São Carlos (UFSCar), Sorocaba campus. Conducted two funded undergraduate research internships in Artificial Intelligence (AI) and Machine Learning (ML), inclusing a period of international research internship. Currently pursuing a Master's degree in Computer Science at UFSCar, focusing on AI and ML for traffic safety.
+I am a Bachelor of Science in Computer Science from Federal University of São Carlos (UFSCar), Sorocaba campus. Conducted two funded undergraduate research internships in Artificial Intelligence (AI) and Machine Learning (ML), including a period of international research internship. Currently pursuing a Master's degree in Computer Science at UFSCar, focusing on AI and ML for traffic safety.
