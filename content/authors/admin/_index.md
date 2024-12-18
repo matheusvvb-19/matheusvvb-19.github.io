@@ -79,4 +79,4 @@ user_groups:
   - Principal Investigators
 ---
 
-I am a Bachelor of Science in Computer Science from Federal University of São Carlos (UFSCar), Sorocaba campus. Conducted two funded undergraduate research internships in Artificial Intelligence (AI) and Machine Learning (ML), including a period of international research internship. Currently pursuing a Master's degree in Computer Science at UFSCar, focusing on AI and ML for traffic safety.
+Got my BSc degree in Computer Science from [Federal University of São Carlos](https://www.sorocaba.ufscar.br/) (UFSCar), Sorocaba campus. During my undergraduate course, I conducted two funded research projects in Artificial Intelligence (AI) and Machine Learning (ML), including a period of international research internship. Currently, I'm a MSc student of the [Postgraduate Program in Computer Science](https://www.ppgcc.ufscar.br/pt-br) (PPGCC) at UFSCar and member of the [Intelligent Systems and Data Science Laboratory](https://lasid.dcomp.ufscar.br/) (LaSID). My MSc research focus on AI and ML for intelligent traffic safety in smart cities.
