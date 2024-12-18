@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Matheus Berto. This is a personal page and its contents are of entire responsability of Matheus Berto.'
+    notice: '© {year} Matheus Berto.'
     license:
       enable: true
       allow_derivatives: false

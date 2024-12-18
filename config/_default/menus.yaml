@@ -7,9 +7,9 @@ main:
   - name: Home
     url: /
     weight: 20
-  - name: Team
-    url: people
-    weight: 50
+  #- name: Team
+    #url: people
+    #weight: 50
   - name: Research
     url: research
     weight: 40

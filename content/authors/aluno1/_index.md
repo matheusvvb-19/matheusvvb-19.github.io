@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Matheus Berto
+title: Aluno1
 
 # Full Name (for SEO)
-first_name: Matheus
-last_name: Berto
+first_name: Aluno1
+last_name: Aluno1
 
 # Is this the primary user of the site?
 superuser: true
@@ -28,12 +28,12 @@ interests:
 
 education:
   courses:
-    - course: MSc in Computer Science
+    - course: MSc in Artificial Intelligence
       institution: Federal University of São Carlos (UFSCar)
-      year: 2024-present
+      year: 2024
     - course: BSc in Computer Science
       institution: Federal University of São Carlos (UFSCar)
-      year: 2019-2024
+      year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -76,7 +76,9 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Visitors
 ---
 
-I am a Bachelor of Science in Computer Science from Federal University of São Carlos (UFSCar), Sorocaba campus. Conducted two funded undergraduate research internships in Artificial Intelligence (AI) and Machine Learning (ML), inclusing a period of international research internship. Currently pursuing a Master's degree in Computer Science at UFSCar, focusing on AI and ML for traffic safety.
+Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
