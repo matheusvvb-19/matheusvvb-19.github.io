@@ -58,14 +58,14 @@ social:
   - icon: researchgate
     icon_pack: fab
     link: https://www.researchgate.net/profile/Matheus_Berto
-  - icon: cv
+  - icon: lattes
     icon_pack: ai
-    link: files/cv.pdf
+    link: http://lattes.cnpq.br/2860066828820211
+  #- icon: cv
+    #icon_pack: ai
+    #link: files/cv.pdf
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -76,7 +76,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Me
 ---
 
 Recieved my BSc degree in Computer Science from [Federal University of São Carlos](https://www.sorocaba.ufscar.br/) (UFSCar), Sorocaba campus. During my undergraduate studies, I conducted two funded research projects in Artificial Intelligence (AI) and Machine Learning (ML), including a period of international research internship. Currently, I am a MSc student of the [Postgraduate Program in Computer Science](https://www.ppgcc.ufscar.br/pt-br) (PPGCC) at UFSCar and a member of the [Intelligent Systems and Data Science Laboratory](https://lasid.dcomp.ufscar.br/) (LaSID). My MSc research focuses on AI and ML for intelligent traffic safety in smart cities.

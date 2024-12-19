@@ -7,3 +7,10 @@
 .cta-group {
   justify-content: left;
 }
+
+a[href^="/author/"] {
+  pointer-events: none; /* Remove o comportamento de clique */
+  cursor: default;      /* Altera o cursor para indicar que o link não está ativo */
+  color: inherit;       /* Garante que a cor do texto permaneça natural */
+  text-decoration: none; /* Remove o sublinhado, se houver */
+}
