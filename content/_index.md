@@ -54,7 +54,7 @@ sections:
 
   - block: accomplishments
     content:
-      title: Accomplishments & Awards
+      title: Accomplishments, Awards & Certificates
       subtitle: ''
       text: ''
       # Date format: https://wowchemy.com/docs/customization/#date-format
@@ -65,32 +65,86 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Neural Networks and Deep Learning
-          certificate_url: https://www.coursera.org
+        - title: Honorable Mention - WebMedia'24 Undergraduate Research Track
+          certificate_url: https://drive.google.com/file/d/1AS6vMlziYdOcP0tQEKwYPyyq0t7MbSjS/view?usp=drive_link
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2024-10-17'
+          description: ''
+          icon: org-webmedia
+          organization: WebMedia'24
+          organization_url: https://webmedia.org.br/en/2024/
+          url: ''
+        - title: Introduction to Machine Learning
+          certificate_url: https://www.coursera.org/account/accomplishments/certificate/RDSL56LM6W55
+          date_end: ''
+          date_start: '2021-01-01'
+          description: ''
+          icon: coursera
+          organization: Duke University
+          organization_url: https://duke.edu/
+          url: ''
+        - title: Natural Language Processing in Python Track
+          certificate_url: https://www.datacamp.com/certificate/track/6948f59295ee24094b25f1f4bc438679f2309882
+          date_end: ''
+          date_start: '2021-01-01'
+          description: ''
+          icon: datacamp
+          organization: DataCamp
+          organization_url: https://app.datacamp.com/
+          url: ''
+        - title: Deep Learning Specialization
+          certificate_url: https://www.coursera.org/account/accomplishments/certificate/HZADZURB82VM
+          date_end: ''
+          date_start: '2020-12-01'
+          description: ''
+          icon: coursera
+          organization: DeepLearning.AI
+          organization_url: https://www.deeplearning.ai/
+          url: ''
+        - title: Applied Machine Learning in Python
+          certificate_url: https://www.coursera.org/account/accomplishments/certificate/8BT39H77KXSE
+          date_end: ''
+          date_start: '2020-10-01'
+          description: ''
+          icon: org-michigan
+          organization: University of Michigan
+          organization_url: https://umich.edu/
+          url: ''
+        - title: Machine Learning Foundations - A Case Study Approach
+          certificate_url: https://www.coursera.org/account/accomplishments/certificate/98W7YZ4Q5GFE
+          date_end: ''
+          date_start: '2020-10-01'
           description: ''
           icon: coursera
           organization: Coursera
           organization_url: https://www.coursera.org
           url: ''
-        - title: Blockchain Fundamentals
-          certificate_url: https://www.edx.org
+        - title: Mathematics for Machine Learning - Linear Algebra
+          certificate_url: https://www.coursera.org/account/accomplishments/certificate/79L2JSH7AA43
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - title: 'Object-Oriented Programming in R'
-          certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_start: '2020-09-01'
           description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
+          icon: coursera
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          url: ''
+        - title: Introduction to R Programming Language
+          certificate_url: https://drive.google.com/file/d/1SER820UvOPbPGIUxtRsS9jEBeqClfi4d/view?usp=sharing
+          date_end: ''
+          date_start: '2020-01-01'
+          description: 
+          icon: org-ufscar
+          organization: Federal University of São Carlos (UFSCar)
+          organization_url: https://cursos.poca.ufscar.br/
+          url: 
+        - title: Simplifying the Agile Scrum Method
+          certificate_url: https://drive.google.com/file/d/1f1lXQHLvMo7X0jHkYTnNMomdJhBsx3gZ/view?usp=sharing
+          date_end: ''
+          date_start: '2020-03-01'
+          description: ''
+          icon: org-ufscar
+          organization: Federal University of São Carlos (UFSCar)
+          organization_url: https://cursos.poca.ufscar.br/
           url: ''
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
