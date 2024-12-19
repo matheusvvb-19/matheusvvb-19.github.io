@@ -56,7 +56,7 @@ social:
     icon_pack: fab
     link: https://orcid.org/0000-0002-6816-9772
   - icon: researchgate
-    icon_pack: fab
+    icon_pack: ai
     link: https://www.researchgate.net/profile/Matheus_Berto
   - icon: lattes
     icon_pack: ai

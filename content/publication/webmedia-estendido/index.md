@@ -74,5 +74,3 @@ links:
 - name: URL
   url: https://sol.sbc.org.br/index.php/webmedia_estendido/article/view/30476
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

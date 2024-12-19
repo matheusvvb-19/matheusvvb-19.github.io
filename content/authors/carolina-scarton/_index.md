@@ -1,21 +1,21 @@
 ---
 # Display name
-title: Prof. Dr. Tiago A. Almeida
+title: Prof. Dr. Carolina E. Scarton
 
 # Full Name (for SEO)
-first_name: Tiago
-last_name: Almeida
+first_name: Carolina
+last_name: Scarton
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: BSc and MSc supervisor
+role: BSc international research intership co-supervisor
 
 # Organizations/Affiliations
 organizations:
-  - name: Federal University of São Carlos
-    url: 'http://www.ufscar.br/'
+  - name: University of Sheffield
+    url: 'https://www.icmc.usp.br/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -38,28 +38,25 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:talmeida@ufscar.br'
+    link: 'mailto:c.scarton@sheffield.ac.uk'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=cZmF9fwAAAAJ
+    link: https://scholar.google.com/citations?user=e6YOuiQAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/talmeida-ML
+    link: https://github.com/carolscarton
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/talmeida-ufscar/
+    link: https://linkedin.com/in/carolina-scarton
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0000-0001-6943-8033
+    link: https://orcid.org/0000-0002-0103-4072
   - icon: researchgate
     icon_pack: ai
-    link: https://www.researchgate.net/profile/Tiago-Almeida-16
-  - icon: lattes
-    icon_pack: ai
-    link: http://lattes.cnpq.br/5368680512020633
+    link: https://www.researchgate.net/profile/Carolina-Scarton9
   - icon: globe
     icon_pack: fas
-    link: https://www.servidores.ufscar.br/talmeida/
+    link: https://carolscarton.github.io/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -75,6 +72,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Current supervisor(s)
+  - Past supervisor(s)
 ---
 

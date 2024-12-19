@@ -1,21 +1,21 @@
 ---
 # Display name
-title: Prof. Dr. Tiago A. Almeida
+title: Prof. Dr. Renato M. Silva
 
 # Full Name (for SEO)
-first_name: Tiago
-last_name: Almeida
+first_name: Renato
+last_name: Silva
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: BSc and MSc supervisor
+role: MSc co-supervisor
 
 # Organizations/Affiliations
 organizations:
-  - name: Federal University of São Carlos
-    url: 'http://www.ufscar.br/'
+  - name: State University of São Paulo (USP)
+    url: 'https://www.icmc.usp.br/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -38,28 +38,25 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:talmeida@ufscar.br'
+    link: 'mailto:renatoms@icmc.usp.br'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=cZmF9fwAAAAJ
+    link: https://scholar.google.com/citations?user=1GCK06MAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/talmeida-ML
+    link: https://github.com/renatosvmor
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/talmeida-ufscar/
+    link: https://www.linkedin.com/in/renatosvmor/
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0000-0001-6943-8033
+    link: https://orcid.org/0000-0001-6687-8981
   - icon: researchgate
     icon_pack: ai
-    link: https://www.researchgate.net/profile/Tiago-Almeida-16
+    link: https://www.researchgate.net/profile/Renato-Moraes-Silva
   - icon: lattes
     icon_pack: ai
-    link: http://lattes.cnpq.br/5368680512020633
-  - icon: globe
-    icon_pack: fas
-    link: https://www.servidores.ufscar.br/talmeida/
+    link: http://lattes.cnpq.br/2532893661927339
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

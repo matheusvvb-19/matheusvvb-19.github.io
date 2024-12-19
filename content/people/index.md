@@ -12,6 +12,8 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - Me
+          - Current supervisor(s)
+          - Past supervisor(s)
           - Researchers
           - Grad Students
           - Administration
