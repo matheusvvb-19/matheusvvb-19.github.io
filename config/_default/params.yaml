@@ -19,14 +19,14 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'Explore my personal webpage showcasing my research, academic achievements, and professional resume. Discover insights into my scholarly journey and contributions.'
-    twitter: ''
+    twitter: 'matheusvvb'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
     google_tag_manager: 'GTM-NPXBM4JR'
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: 'GTM-NPXBM4JR'
     baidu: ''
 
 # Site header
