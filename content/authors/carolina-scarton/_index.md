@@ -10,12 +10,12 @@ last_name: Scarton
 superuser: false
 
 # Role/position
-role: BSc international research intership co-supervisor
+role: BSc international research internship co-supervisor
 
 # Organizations/Affiliations
 organizations:
   - name: University of Sheffield
-    url: 'https://www.icmc.usp.br/'
+    url: 'https://www.sheffield.ac.uk/'
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
