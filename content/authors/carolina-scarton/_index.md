@@ -10,7 +10,7 @@ last_name: Scarton
 superuser: false
 
 # Role/position
-role: BSc international research internship co-supervisor
+role: BSc international research internship supervisor
 
 # Organizations/Affiliations
 organizations:
