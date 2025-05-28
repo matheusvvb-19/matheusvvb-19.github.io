@@ -24,11 +24,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Graduate Teaching Assistant
+          company: Federal University of São Carlos (UFSCar)
+          company_url: 'https://www.ufscar.br/'
+          company_logo: org-ufscar
+          location: Sorocaba, Brazil
+          date_start: '2025-03-31'
+          date_end: '2025-07-27'
+          description: Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing course. Responsibilities included developing and proposing assignments, delivering detailed, constructive feedback on submitted work, and conducting lectures on key course topics.
         - title: Undergraduate Academic Visitor
           company: University of Sheffield
           company_url: 'https://www.sheffield.ac.uk/'
           company_logo: org-uos
-          location: Sheffield (United Kingdom)
+          location: Sheffield, United Kingdom
           date_start: '2022-09-01'
           date_end: '2022-12-10'
           description: Undergraduate research internship at the University of Sheffield, funded by the brazilian agency Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP).
@@ -36,18 +44,18 @@ sections:
           company: BTG Pactual
           company_url: 'https://www.btgpactual.com/'
           company_logo: org-btg
-          location: São Paulo (Brazil)
+          location: São Paulo, Brazil
           date_start: '2020-12-01'
           date_end: '2021-02-01'
           description: I worked as an intern in BTG Pactual's Summer Tech vacation internship program. I was part of the automation team, developing Robotic Process Automation (RPA) programs using the UiPath tool.
-        - title: Undergraduate Academic Tutor
+        - title: Undergraduate Teaching Assistant
           company: Federal University of São Carlos (UFSCar)
           company_url: 'https://www.ufscar.br/'
           company_logo: org-ufscar
-          location: Sorocaba (Brazil)
+          location: Sorocaba, Brazil
           date_start: '2020-09-01'
           date_end: '2021-01-01'
-          description: I was a tutor for the "Programa de Acompanhamento Acadêmico aos Estudantes de Graduação" (PAAEG) at UFSCar, helping students from various courses at the university in their studies and deepening in the disciplines of Analytic Geometry and Linear Algebra.
+          description: I was an undergraduate teaching assistant for the "Programa de Acompanhamento Acadêmico aos Estudantes de Graduação" (PAAEG) at UFSCar, helping students from various courses at the university in their studies and deepening in the disciplines of Analytic Geometry and Linear Algebra.
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
