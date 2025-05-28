@@ -31,7 +31,7 @@ sections:
           location: Sorocaba, Brazil
           date_start: '2025-03-31'
           date_end: '2025-07-27'
-          description: Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing course. Responsibilities included developing and proposing assignments, delivering detailed, constructive feedback on submitted work, and conducting lectures on key course topics.
+          description: Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing (NLP) course. Responsibilities included developing and proposing assignments, delivering detailed, constructive feedback on submitted work, and conducting lectures on key course topics.
         - title: Undergraduate Academic Visitor
           company: University of Sheffield
           company_url: 'https://www.sheffield.ac.uk/'
