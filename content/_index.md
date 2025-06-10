@@ -31,7 +31,7 @@ sections:
           location: Ingolstadt, Germany
           date_start: '2025-08-04'
           date_end: ''
-          description: Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing (NLP) course. Responsibilities included developing and proposing assignments, delivering detailed, constructive feedback on submitted work, and conducting lectures on key course topics.
+          description: Funded postgraduate international research internship at the [Center of Automotive Research on Integrated Safety Systems and Measurement Area (CARISSMA)](https://www.thi.de/en/research/carissma/) research institute from the Technische Hochschule Ingolstadt (THI) as part of my Master's (MSc) program.
         - title: Graduate Teaching Assistant
           company: Federal University of São Carlos (UFSCar)
           company_url: 'https://www.ufscar.br/'
@@ -47,7 +47,7 @@ sections:
           location: Sheffield, United Kingdom
           date_start: '2022-09-01'
           date_end: '2022-12-10'
-          description: Undergraduate research internship at the University of Sheffield, funded by the brazilian agency Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP).
+          description: Undergraduate international research internship at [School of Computer Science](https://www.sheffield.ac.uk/cs) from the University of Sheffield, funded by the brazilian agency [Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)](https://fapesp.br/).
         - title: Summer Tech Intern
           company: BTG Pactual
           company_url: 'https://www.btgpactual.com/'
@@ -63,7 +63,7 @@ sections:
           location: Sorocaba, Brazil
           date_start: '2020-09-01'
           date_end: '2021-01-01'
-          description: I was an undergraduate teaching assistant for the "Programa de Acompanhamento Acadêmico aos Estudantes de Graduação" (PAAEG) at UFSCar, helping students from various courses at the university in their studies and deepening in the disciplines of Analytic Geometry and Linear Algebra.
+          description: I was an undergraduate teaching assistant for the [Programa de Acompanhamento Acadêmico aos Estudantes de Graduação (PAAEG)](https://www.prograd.ufscar.br/pt-br/estudantes/bolsas/bolsa-programa-de-acompanhamento-academico-aos-alunos-de-graduacao-paaeg/tutoria-paaeg) at UFSCar, helping students from various courses at the university in their studies and deepening in the disciplines of Analytic Geometry and Linear Algebra.
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'

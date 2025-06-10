@@ -28,9 +28,9 @@ interests:
 
 education:
   courses:
-    #- course: MSc in Computer Science
-      #institution: Federal University of São Carlos (UFSCar)
-      #year: 2024
+    - course: MSc in Computer Science
+      institution: Federal University of São Carlos (UFSCar)
+      year: ongoing
     - course: BSc in Computer Science
       institution: Federal University of São Carlos (UFSCar)
       year: 2024
