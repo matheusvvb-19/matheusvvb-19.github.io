@@ -10,7 +10,7 @@ last_name: Berto
 superuser: true
 
 # Role/position
-role: MSc Student
+role: MSc student in Computer Science
 
 # Organizations/Affiliations
 organizations:
@@ -28,12 +28,12 @@ interests:
 
 education:
   courses:
-    - course: MSc in Computer Science
-      institution: Federal University of São Carlos (UFSCar)
-      year: 2024-present
+    #- course: MSc in Computer Science
+      #institution: Federal University of São Carlos (UFSCar)
+      #year: 2024
     - course: BSc in Computer Science
       institution: Federal University of São Carlos (UFSCar)
-      year: 2019-2024
+      year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -79,4 +79,4 @@ user_groups:
   - Me
 ---
 
-I recieved my BSc degree in Computer Science from [Federal University of São Carlos](https://www.sorocaba.ufscar.br/) (UFSCar), Sorocaba campus. During my undergraduate studies, I conducted two funded research projects in Artificial Intelligence (AI) and Machine Learning (ML), including a period of international research internship. Currently, I am a MSc student of the [Postgraduate Program in Computer Science](https://www.ppgcc.ufscar.br/pt-br) (PPGCC) at UFSCar and a member of the [Intelligent Systems and Data Science Laboratory](https://lasid.dcomp.ufscar.br/) (LaSID). My MSc research focuses on AI and ML for intelligent traffic safety in smart cities.
+I received my Bachelor of Science (BSc) degree in Computer Science from the [Federal University of São Carlos](http://www.ufscar.br/) (UFSCar), Sorocaba campus, in 2024. During my undergraduate studies, I conducted two funded research projects in Artificial Intelligence (AI) and Machine Learning (ML), including an international research internship. I am currently a Master's (MSc) student in the [Postgraduate Program in Computer Science](https://www.ppgcc.ufscar.br/pt-br) (PPGCC) at UFSCar and a member of the [Laboratory of Intelligent Systems and Data Science](https://lasid.dcomp.ufscar.br/) (LaSID). My MSc research focuses on applying AI and ML to intelligent traffic safety in smart cities.

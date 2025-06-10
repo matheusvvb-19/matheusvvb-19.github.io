@@ -35,15 +35,17 @@ header:
   navbar:
     enable: true
     align: r
+    fixed_to_top: true
     show_logo: true
     show_language: false
     show_day_night: true
-    show_search: true
-    highlight_active_link: false
+    show_search: false
+    highlight_active_link: true
 
 # Site footer
 
 footer:
+  block: minimal
   copyright:
     notice: '© {year} Matheus Berto.'
     license:

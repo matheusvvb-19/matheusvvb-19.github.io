@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Prof. Dr. Renato M. Silva
+title: Markus Geisler
 
 # Full Name (for SEO)
-first_name: Renato
-last_name: Silva
+first_name: Markus
+last_name: Geisler
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: MSc co-supervisor
+role: MSc international research internship supervisor
 
 # Organizations/Affiliations
 organizations:
@@ -38,28 +38,25 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:renatoms@icmc.usp.br'
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=1GCK06MAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/renatosvmor
+    link: 'mailto:Markus.Geisler@carissma.eu '
+  #- icon: google-scholar
+    #icon_pack: ai
+    #link: https://scholar.google.com/citations?user=1GCK06MAAAAJ
+  #- icon: github
+    #icon_pack: fab
+    #link: https://github.com/renatosvmor
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/renatosvmor/
+    link: https://www.linkedin.com/in/markus-geisler-1030761b3/
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0000-0001-6687-8981
-  - icon: researchgate
-    icon_pack: ai
-    link: https://www.researchgate.net/profile/Renato-Moraes-Silva
-  - icon: lattes
-    icon_pack: ai
-    link: http://lattes.cnpq.br/2532893661927339
-  - icon: globe
-    icon_pack: fas
-    link: https://renatosvmor.github.io/pages/home.html
+    link: https://orcid.org/0009-0002-7495-7166
+  #- icon: researchgate
+    #icon_pack: ai
+    #link: https://www.researchgate.net/profile/Renato-Moraes-Silva
+  #- icon: lattes
+    #icon_pack: ai
+    #link: http://lattes.cnpq.br/2532893661927339
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

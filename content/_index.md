@@ -24,13 +24,21 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Graduate Academic Visitor
+          company: Technische Hochschule Ingolstadt (THI)
+          company_url: 'https://www.thi.de/'
+          company_logo: org-thi
+          location: Ingolstadt, Germany
+          date_start: '2025-08-04'
+          date_end: ''
+          description: Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing (NLP) course. Responsibilities included developing and proposing assignments, delivering detailed, constructive feedback on submitted work, and conducting lectures on key course topics.
         - title: Graduate Teaching Assistant
           company: Federal University of São Carlos (UFSCar)
           company_url: 'https://www.ufscar.br/'
           company_logo: org-ufscar
           location: Sorocaba, Brazil
           date_start: '2025-03-31'
-          date_end: '2025-07-27'
+          date_end: '2025-07-31'
           description: Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing (NLP) course. Responsibilities included developing and proposing assignments, delivering detailed, constructive feedback on submitted work, and conducting lectures on key course topics.
         - title: Undergraduate Academic Visitor
           company: University of Sheffield

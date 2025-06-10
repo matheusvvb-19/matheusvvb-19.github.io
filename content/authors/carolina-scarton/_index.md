@@ -54,6 +54,9 @@ social:
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Carolina-Scarton9
+  - icon: lattes
+    icon_pack: ai
+    link: http://lattes.cnpq.br/3421026578721604
   - icon: globe
     icon_pack: fas
     link: https://carolscarton.github.io/
