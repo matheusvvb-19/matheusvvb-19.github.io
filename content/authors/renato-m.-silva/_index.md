@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Prof. Dr. Renato M. Silva
+title: Renato M. Silva
 
 # Full Name (for SEO)
 first_name: Renato

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Prof. Dr. Carolina E. Scarton
+title: Carolina E. Scarton
 
 # Full Name (for SEO)
 first_name: Carolina

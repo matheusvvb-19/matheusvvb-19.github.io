@@ -18,19 +18,19 @@ organizations:
     url: 'http://www.ufscar.br/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
 
 interests:
   - Artificial Intelligence
-  - Machine Learning
   - Deep Learning
+  - Machine Learning
   - Natural Language Processing
 
 education:
   courses:
     - course: MSc in Computer Science
       institution: Federal University of São Carlos (UFSCar)
-      year: ongoing
+      year: in progress
     - course: BSc in Computer Science
       institution: Federal University of São Carlos (UFSCar)
       year: 2024
@@ -79,4 +79,4 @@ user_groups:
   - Me
 ---
 
-I received my Bachelor of Science (BSc) degree in Computer Science from the [Federal University of São Carlos](http://www.ufscar.br/) (UFSCar), Sorocaba campus, in 2024. During my undergraduate studies, I conducted two funded research projects in Artificial Intelligence (AI) and Machine Learning (ML), including an international research internship. I am currently a Master's (MSc) student in the [Postgraduate Program in Computer Science](https://www.ppgcc.ufscar.br/pt-br) (PPGCC) at UFSCar and a member of the [Laboratory of Intelligent Systems and Data Science](https://lasid.dcomp.ufscar.br/) (LaSID). My MSc research focuses on applying AI and ML to intelligent traffic safety in smart cities.
+I received my Bachelor of Science (BSc) degree in Computer Science from the [Federal University of São Carlos](http://www.ufscar.br/) (UFSCar), Sorocaba campus, in 2024. During my undergraduate studies, I conducted two funded research projects in artificial intelligence (AI) and machine learning (ML), including an international research internship. I am currently a Master's (MSc) student in the [Graduate Program in Computer Science](https://www.ppgcc.ufscar.br/pt-br) (PPGCC) at UFSCar and a member of the [Intelligent Systems and Data Science Laboratory](https://lasid.dcomp.ufscar.br/) (LaSID). My MSc research focuses on applying AI and ML to intelligent traffic safety in smart cities.

@@ -71,6 +71,5 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 links:
-- name: URL
-  url: https://sol.sbc.org.br/index.php/webmedia_estendido/article/view/30476
+
 ---

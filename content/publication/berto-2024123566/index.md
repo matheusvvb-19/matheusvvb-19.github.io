@@ -92,6 +92,5 @@ image:
 #   Otherwise, set `projects: []`.
 projects: []
 links:
-- name: URL
-  url: https://www.sciencedirect.com/science/article/pii/S0957417424004317
+
 ---

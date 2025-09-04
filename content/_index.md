@@ -14,7 +14,7 @@ sections:
 
   - block: experience
     content:
-      title: Experience
+      title: Research Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -31,7 +31,31 @@ sections:
           location: Ingolstadt, Germany
           date_start: '2025-08-04'
           date_end: ''
-          description: Funded postgraduate international research internship at the [Center of Automotive Research on Integrated Safety Systems and Measurement Area (CARISSMA)](https://www.thi.de/en/research/carissma/) research institute from the Technische Hochschule Ingolstadt (THI) as part of my Master's (MSc) program.
+          description: Fully-funded postgraduate international research internship at the [Center of Automotive Research on Integrated Safety Systems and Measurement Area (CARISSMA)](https://www.thi.de/en/research/carissma/) research institute from the Technische Hochschule Ingolstadt (THI) as part of my Master's (MSc) degree.
+        - title: Undergraduate Academic Visitor
+          company: University of Sheffield
+          company_url: 'https://www.sheffield.ac.uk/'
+          company_logo: org-uos
+          location: Sheffield, United Kingdom
+          date_start: '2022-09-01'
+          date_end: '2022-12-10'
+          description: Fully-funded undergraduate international research internship at [School of Computer Science](https://www.sheffield.ac.uk/cs) from the University of Sheffield, funded by the brazilian agency [Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)](https://fapesp.br/).
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+
+  - block: experience
+    content:
+      title: Teaching Experience
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many experience `items` below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
         - title: Graduate Teaching Assistant
           company: Federal University of São Carlos (UFSCar)
           company_url: 'https://www.ufscar.br/'
@@ -40,22 +64,6 @@ sections:
           date_start: '2025-03-31'
           date_end: '2025-07-31'
           description: Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing (NLP) course. Responsibilities included developing and proposing assignments, delivering detailed, constructive feedback on submitted work, and conducting lectures on key course topics.
-        - title: Undergraduate Academic Visitor
-          company: University of Sheffield
-          company_url: 'https://www.sheffield.ac.uk/'
-          company_logo: org-uos
-          location: Sheffield, United Kingdom
-          date_start: '2022-09-01'
-          date_end: '2022-12-10'
-          description: Undergraduate international research internship at [School of Computer Science](https://www.sheffield.ac.uk/cs) from the University of Sheffield, funded by the brazilian agency [Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)](https://fapesp.br/).
-        - title: Summer Tech Intern
-          company: BTG Pactual
-          company_url: 'https://www.btgpactual.com/'
-          company_logo: org-btg
-          location: São Paulo, Brazil
-          date_start: '2020-12-01'
-          date_end: '2021-02-01'
-          description: I worked as an intern in BTG Pactual's Summer Tech vacation internship program. I was part of the automation team, developing Robotic Process Automation (RPA) programs using the UiPath tool.
         - title: Undergraduate Teaching Assistant
           company: Federal University of São Carlos (UFSCar)
           company_url: 'https://www.ufscar.br/'
@@ -64,6 +72,30 @@ sections:
           date_start: '2020-09-01'
           date_end: '2021-01-01'
           description: I was an undergraduate teaching assistant for the [Programa de Acompanhamento Acadêmico aos Estudantes de Graduação (PAAEG)](https://www.prograd.ufscar.br/pt-br/estudantes/bolsas/bolsa-programa-de-acompanhamento-academico-aos-alunos-de-graduacao-paaeg/tutoria-paaeg) at UFSCar, helping students from various courses at the university in their studies and deepening in the disciplines of Analytic Geometry and Linear Algebra.
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+
+  - block: experience
+    content:
+      title: Working Experience
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many experience `items` below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+      - title: Summer Tech Intern
+        company: BTG Pactual
+        company_url: 'https://www.btgpactual.com/'
+        company_logo: org-btg
+        location: São Paulo, Brazil
+        date_start: '2020-12-01'
+        date_end: '2021-02-01'
+        description: I worked as an undergraduate intern in BTG Pactual's Summer Tech vacation internship program. I was part of the automation team, developing Robotic Process Automation (RPA) programs using the UiPath tool.
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -90,17 +122,26 @@ sections:
           organization: WebMedia'24
           organization_url: https://webmedia.org.br/en/2024/
           url: ''
+        - title: Training in Artificial Intelligence
+          certificate_url: https://drive.google.com/file/d/1fYfMbGIRjWPrXpmo54T75iD0f1gbKHNJ/view?usp=sharing
+          date_end: ''
+          date_start: '2023-09-01'
+          description: ''
+          icon: org-unicamp
+          organization: State University of Campinas (UNICAMP)
+          organization_url: https://unicamp.br/
+          url: ''
         - title: Introduction to Machine Learning
           certificate_url: https://www.coursera.org/account/accomplishments/certificate/RDSL56LM6W55
           date_end: ''
-          date_start: '2021-01-01'
+          date_start: '2021-05-10'
           description: ''
           icon: coursera
           organization: Duke University
           organization_url: https://duke.edu/
           url: ''
         - title: Natural Language Processing in Python Track
-          certificate_url: https://www.datacamp.com/certificate/track/6948f59295ee24094b25f1f4bc438679f2309882
+          certificate_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/6948f59295ee24094b25f1f4bc438679f2309882
           date_end: ''
           date_start: '2021-01-01'
           description: ''

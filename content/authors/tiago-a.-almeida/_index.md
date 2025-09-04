@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Prof. Dr. Tiago A. Almeida
+title: Tiago A. Almeida
 
 # Full Name (for SEO)
 first_name: Tiago
