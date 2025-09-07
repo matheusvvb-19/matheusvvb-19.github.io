@@ -7,7 +7,7 @@ title: Accelerating discoveries in medicine using distributed vector representat
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Matheus V. V. Berto
+- admin
 - Breno L. Freitas
 - Carolina Scarton
 - João A. Machado-Neto

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Matheus Berto
+title: Matheus V. V. Berto
 
 # Full Name (for SEO)
 first_name: Matheus

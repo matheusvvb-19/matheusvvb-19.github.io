@@ -8,7 +8,7 @@ title: 'Vulnerable Road User Detection and Safety Enhancement: A Comprehensive S
 authors:
 - Renato M. Silva
 - Gregório F. Azevedo
-- Matheus V. V. Berto
+- admin
 - Jean R. Rocha
 - Eduardo C. Fidelis
 - Matheus V. Nogueira
@@ -19,10 +19,10 @@ authors:
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2024-01-01'
+date: '2025-06-10'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-12-18T17:09:26.908591Z'
+publishDate: '2025-06-18T17:09:26.908591Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
