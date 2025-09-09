@@ -11,6 +11,62 @@ sections:
       title: Hi there!
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  
+  - block: experience
+    content:
+      title: Education
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many experience `items` below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: MSc in Computer Science
+          company: Federal University of São Carlos (UFSCar)
+          company_url: 'https://www.ufscar.br/'
+          company_logo: org-ufscar
+          location: Sorocaba, Brazil
+          date_start: '2024-10-14'
+          date_end: ''
+          description: >
+            _Current overall GPA: 3.83 / 4.0_
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>"LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction'', supervised by Dr. Tiago A. Almeida</li>
+              <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science (PPGCC)</a>, machine learning and natural language processing thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory (LaSID)</a></li>
+            </ul>
+        - title: BSc Exchange Student
+          company: University of Chile
+          company_url: 'https://uchile.cl/'
+          company_logo: org-uchile
+          location: Santiago, Chile
+          date_start: '2022-03-01'
+          date_end: '2022-07-01'
+          description: >
+            _Final score: 5.2 / 7.0_
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>Virtual Mobility Pilot Program of the <a href="https://grupomontevideo.org/site/" target="_blank">Association of Universities of the Montevideo Group (AUGM)</a>, completed the online course "Spatial Data Analysis and Geographic Information Systems"</li>
+              <li>Spatial and demographic data analysis applied to decision-making, building interactive maps and dashboards using QGIS and Power BI</li>
+            </ul>
+        - title: BSc in Computer Science
+          company: Federal University of São Carlos (UFSCar)
+          company_url: 'https://www.sorocaba.ufscar.br/'
+          company_logo: org-ufscar
+          location: Sorocaba, Brazil
+          date_start: '2019-03-14'
+          date_end: '2024-09-01'
+          description: >
+            _Final overall score&#58; 9.03 / 10.0_
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>Received broad training in Computer Science, including topics such as artificial intelligence, data science, deep learning, and machine learning</li>
+              <li>Conducted a funded research internship abroad, which resulted in the publication of a peer-reviewed article in an international journal</li>
+              <li>Worked as undergraduate teaching assistant in mathematics-related disciplines and organized student-led events</li>
+            </ul>
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
 
   - block: experience
     content:
@@ -31,7 +87,11 @@ sections:
           location: Ingolstadt, Germany
           date_start: '2025-08-04'
           date_end: ''
-          description: Fully-funded postgraduate international research internship at the [Center of Automotive Research on Integrated Safety Systems and Measurement Area (CARISSMA)](https://www.thi.de/en/research/carissma/) research institute from the Technische Hochschule Ingolstadt (THI) as part of my Master's (MSc) degree.
+          description: >
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>Fully-funded international graduate research internship on LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction</li>
+              <li>Collaboration with the <a href="https://www.thi.de/en/research/carissma/c-iad/" target="_blank">Institute of Automated Driving (C-IAD)</a> at the <a href="https://www.thi.de/en/research/carissma/" target="_blank">Center of Automotive Research on Integrated Safety Systems and Measurement Area (CARISSMA)</a></li>
+            </ul>
         - title: Undergraduate Academic Visitor
           company: University of Sheffield
           company_url: 'https://www.sheffield.ac.uk/'
@@ -39,7 +99,11 @@ sections:
           location: Sheffield, United Kingdom
           date_start: '2022-09-01'
           date_end: '2022-12-10'
-          description: Fully-funded undergraduate international research internship at [School of Computer Science](https://www.sheffield.ac.uk/cs) from the University of Sheffield, funded by the brazilian agency [Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)](https://fapesp.br/).
+          description: >
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>Fully-funded international undergraduate research internship supervised by Dr. Carolina E. Scarton</li>
+              <li>Collaborated with the <a href="https://sheffield.ac.uk/cs/research/groups/natural-language-processing" target="_blank">NLP Research Group</a> at the <a href="https://www.sheffield.ac.uk/cs" target="_blank">School of Computer Science</a>, investigating the use of deep bidirectional transformers to uncover latent knowledge from unstructured biomedical cancer literature</li>
+            </ul>
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -56,22 +120,30 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Graduate Teaching Assistant
+        - title: Graduate Assistant
           company: Federal University of São Carlos (UFSCar)
           company_url: 'https://www.ufscar.br/'
           company_logo: org-ufscar
           location: Sorocaba, Brazil
           date_start: '2025-03-31'
           date_end: '2025-07-31'
-          description: Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing (NLP) course. Responsibilities included developing and proposing assignments, delivering detailed, constructive feedback on submitted work, and conducting lectures on key course topics.
-        - title: Undergraduate Teaching Assistant
+          description: >
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing (NLP) course</li>
+              <li>Designed and proposed assignments aligned with course objectives, delivered lectures on core topics</li>
+            </ul>
+        - title: Undergraduate Assistant
           company: Federal University of São Carlos (UFSCar)
           company_url: 'https://www.ufscar.br/'
           company_logo: org-ufscar
           location: Sorocaba, Brazil
           date_start: '2020-09-01'
           date_end: '2021-01-01'
-          description: I was an undergraduate teaching assistant for the [Programa de Acompanhamento Acadêmico aos Estudantes de Graduação (PAAEG)](https://www.prograd.ufscar.br/pt-br/estudantes/bolsas/bolsa-programa-de-acompanhamento-academico-aos-alunos-de-graduacao-paaeg/tutoria-paaeg) at UFSCar, helping students from various courses at the university in their studies and deepening in the disciplines of Analytic Geometry and Linear Algebra.
+          description: >
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>Undergraduate teaching assistant for the <a href="https://www.prograd.ufscar.br/pt-br/estudantes/bolsas/bolsa-programa-de-acompanhamento-academico-aos-alunos-de-graduacao-paaeg/tutoria-paaeg" trget="_blank">Programa de Acompanhamento Acadêmico aos Estudantes de Graduação (PAAEG)</a></li>
+              <li>Assisted first-year students of diverse majors in consolidating knowledge of Analytical Geometry and Linear Algebra classes, reinforcing problem-solving and theoretical understanding</li>
+            </ul>
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -95,14 +167,17 @@ sections:
         location: São Paulo, Brazil
         date_start: '2020-12-01'
         date_end: '2021-02-01'
-        description: I worked as an undergraduate intern in BTG Pactual's Summer Tech vacation internship program. I was part of the automation team, developing Robotic Process Automation (RPA) programs using the UiPath tool.
+        description: >
+          <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+            <li>Worked as an undergraduate intern in BTG Pactual's Summer Tech vacation internship program</li>
+            <li>Part of the automation team, developing Robotic Process Automation (RPA) programs using the UiPath tool</li>
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-
+  
   - block: accomplishments
     content:
-      title: Accomplishments, Awards & Certificates
+      title: Awards & Scholarships
       subtitle: ''
       text: ''
       # Date format: https://wowchemy.com/docs/customization/#date-format
@@ -113,15 +188,68 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: MSc research fellowship
+          certificate_url: 
+          date_end: '2026-11-01'
+          date_start: '2024-10-01'
+          description: 'Grant 29271.02.01/2022.04-00'
+          icon: org-fundep
+          organization: Research Development Foundation (Fundep)
+          organization_url: https://www.fundep.ufmg.br/
+          url: ''
         - title: Honorable Mention - WebMedia'24 Undergraduate Research Track
           certificate_url: https://drive.google.com/file/d/1AS6vMlziYdOcP0tQEKwYPyyq0t7MbSjS/view?usp=drive_link
           date_end: ''
-          date_start: '2024-10-17'
+          date_start: '2024-10-01'
           description: ''
           icon: org-webmedia
           organization: WebMedia'24
           organization_url: https://webmedia.org.br/en/2024/
           url: ''
+        - title: Undergraduate research fellowship
+          certificate_url: 
+          date_end: '2024-09-01'
+          date_start: '2024-01-01'
+          description: 'Grant 29271.02.01/2022.04-00'
+          icon: org-fundep
+          organization: Research Development Foundation (Fundep)
+          organization_url: https://www.fundep.ufmg.br/
+          url: ''
+        - title: Undergraduate research internship abroad
+          certificate_url: 'https://drive.google.com/file/d/1HFLjeCycuqbZ4ubrPRkg9ojXZo3_HHPz/view?usp=sharing'
+          date_end: '2022-12-10'
+          date_start: '2022-09-01'
+          description: 'Grant 2022/07236-9'
+          icon: org-fapesp
+          organization: São Paulo Research Foundatio (FAPESP)
+          organization_url: https://fapesp.br/
+          url: ''
+        - title: Undergraduate research fellowship
+          certificate_url: 'https://drive.google.com/file/d/1fn0eJqytczgGrMdsCWP7Y8tYsFJn_UHD/view?usp=sharing'
+          date_end: '2023-04-01'
+          date_start: '2022-01-01'
+          description: 'Grant 2021/13054-8'
+          icon: org-fapesp
+          organization: São Paulo Research Foundatio (FAPESP)
+          organization_url: https://fapesp.br/
+          url: ''
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+
+  - block: accomplishments
+    content:
+      title: Extra-curricular Activities & Certificates
+      subtitle: ''
+      text: ''
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `items` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
         - title: Training in Artificial Intelligence
           certificate_url: https://drive.google.com/file/d/1fYfMbGIRjWPrXpmo54T75iD0f1gbKHNJ/view?usp=sharing
           date_end: ''

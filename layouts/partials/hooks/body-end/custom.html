@@ -1,0 +1,19 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // Seleciona todas as listas de interesses
+  document.querySelectorAll('.ul-interests.fa-ul').forEach(ul => {
+    // Remove a classe fa-ul da <ul>
+    ul.classList.remove('fa-ul');
+
+    // Remove todos os <i> dentro dos <li>
+    ul.querySelectorAll('li i.fa-li').forEach(icon => {
+      icon.remove();
+    });
+
+    // Para cada <li>, remove as classes indesejadas
+    ul.querySelectorAll('li').forEach(li => {
+      li.classList.remove('fa-li', 'fa-solid', 'fa-book-open');
+    });
+  });
+});
+</script>

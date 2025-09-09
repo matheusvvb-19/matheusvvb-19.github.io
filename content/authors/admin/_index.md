@@ -21,19 +21,19 @@ organizations:
 bio: 
 
 interests:
-  - Artificial Intelligence
-  - Deep Learning
-  - Machine Learning
+  - Applied, Explainable, and Multimodal Artificial Intelligence
+  - Knowledge Discovery and Representation
+  - Lifelong Machine Learning
   - Natural Language Processing
 
-education:
-  courses:
-    - course: MSc in Computer Science
-      institution: Federal University of São Carlos (UFSCar)
-      year: in progress
-    - course: BSc in Computer Science
-      institution: Federal University of São Carlos (UFSCar)
-      year: 2024
+#education:
+  #courses:
+    #- course: MSc in Computer Science
+      #institution: Federal University of São Carlos (UFSCar)
+      #year: in progress
+    #- course: BSc in Computer Science
+      #institution: Federal University of São Carlos (UFSCar)
+      #year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -46,21 +46,21 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=rNc5WSUAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/matheusvvb-19
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/matheus-volpon/
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0002-6816-9772
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/matheus-volpon/
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Matheus_Berto
   - icon: lattes
     icon_pack: ai
     link: http://lattes.cnpq.br/2860066828820211
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/matheusvvb-19
   #- icon: cv
     #icon_pack: ai
     #link: files/cv.pdf
