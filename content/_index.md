@@ -221,7 +221,7 @@ sections:
           date_start: '2022-09-01'
           description: 'Grant 2022/07236-9'
           icon: org-fapesp
-          organization: São Paulo Research Foundatio (FAPESP)
+          organization: São Paulo Research Foundation (FAPESP)
           organization_url: https://fapesp.br/
           url: ''
         - title: Undergraduate research fellowship
@@ -230,7 +230,7 @@ sections:
           date_start: '2022-01-01'
           description: 'Grant 2021/13054-8'
           icon: org-fapesp
-          organization: São Paulo Research Foundatio (FAPESP)
+          organization: São Paulo Research Foundation (FAPESP)
           organization_url: https://fapesp.br/
           url: ''
     design:
