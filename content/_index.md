@@ -141,7 +141,7 @@ sections:
           date_end: '2021-01-01'
           description: >
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
-              <li>Undergraduate teaching assistant for the <a href="https://www.prograd.ufscar.br/pt-br/estudantes/bolsas/bolsa-programa-de-acompanhamento-academico-aos-alunos-de-graduacao-paaeg/tutoria-paaeg" trget="_blank">Programa de Acompanhamento Acadêmico aos Estudantes de Graduação (PAAEG)</a></li>
+              <li>Undergraduate teaching assistant for the <a href="https://www.prograd.ufscar.br/pt-br/estudantes/bolsas/bolsa-programa-de-acompanhamento-academico-aos-alunos-de-graduacao-paaeg/tutoria-paaeg" target="_blank">Programa de Acompanhamento Acadêmico aos Estudantes de Graduação (PAAEG)</a></li>
               <li>Assisted first-year students of diverse majors in consolidating knowledge of Analytical Geometry and Linear Algebra classes, reinforcing problem-solving and theoretical understanding</li>
             </ul>
     design:
