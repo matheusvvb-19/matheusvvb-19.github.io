@@ -47,7 +47,7 @@ header:
 footer:
   block: minimal
   copyright:
-    notice: '© {year} Matheus Berto.'
+    notice: '© {year} Matheus V. V. Berto.'
     license:
       enable: true
       allow_derivatives: false

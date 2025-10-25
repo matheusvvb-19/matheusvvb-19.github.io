@@ -22,7 +22,7 @@ bio:
 
 interests:
   - Applied, Explainable, and Multimodal Artificial Intelligence
-  - Knowledge Discovery and Representation
+  - Knowledge Representation and Discovery
   - Lifelong Machine Learning
   - Natural Language Processing
 

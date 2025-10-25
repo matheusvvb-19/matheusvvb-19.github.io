@@ -32,7 +32,7 @@ sections:
           date_start: '2024-10-14'
           date_end: ''
           description: >
-            _Current overall GPA: 3.83 / 4.0_
+            _Current GPA: 3.83 / 4.0_
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
               <li>"LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction'', supervised by Dr. Tiago A. Almeida</li>
               <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science (PPGCC)</a>, machine learning and natural language processing thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory (LaSID)</a></li>
@@ -58,7 +58,7 @@ sections:
           date_start: '2019-03-14'
           date_end: '2024-09-01'
           description: >
-            _Final overall score&#58; 9.03 / 10.0_
+            _Final score: 9.03 / 10.0_
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
               <li>Received broad training in Computer Science, including topics such as artificial intelligence, data science, deep learning, and machine learning</li>
               <li>Conducted a funded research internship abroad, which resulted in the publication of a peer-reviewed article in an international journal</li>
@@ -102,7 +102,7 @@ sections:
           description: >
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
               <li>Fully-funded international undergraduate research internship supervised by Dr. Carolina E. Scarton</li>
-              <li>Collaborated with the <a href="https://sheffield.ac.uk/cs/research/groups/natural-language-processing" target="_blank">NLP Research Group</a> at the <a href="https://www.sheffield.ac.uk/cs" target="_blank">School of Computer Science</a>, investigating the use of deep bidirectional transformers to uncover latent knowledge from unstructured biomedical cancer literature</li>
+              <li>Collaborated with the <a href="https://sheffield.ac.uk/cs/research/groups/natural-language-processing" target="_blank">Natural Language Processing (NLP) Research Group</a> at the <a href="https://www.sheffield.ac.uk/cs" target="_blank">School of Computer Science</a>, investigating the use of deep bidirectional transformers to uncover latent knowledge from unstructured biomedical cancer literature</li>
             </ul>
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -129,7 +129,7 @@ sections:
           date_end: '2025-07-31'
           description: >
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
-              <li>Facilitated the learning experience for BSc Computer Science students in a Natural Language Processing (NLP) course</li>
+              <li>Facilitated the learning experience for BSc Computer Science students in a NLP course</li>
               <li>Designed and proposed assignments aligned with course objectives, delivered lectures on core topics</li>
             </ul>
         - title: Undergraduate Assistant
