@@ -22,8 +22,8 @@ bio:
 
 interests:
   - Applied, Explainable, and Multimodal Artificial Intelligence
+  - Continual (Continuous, Incremental, or Lifelong) Learning
   - Knowledge Representation and Discovery
-  - Lifelong Machine Learning
   - Natural Language Processing
 
 #education:
@@ -61,6 +61,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/matheusvvb-19
+  - icon: arxiv
+    icon_pack: ai
+    link: https://arxiv.org/a/0000-0002-6816-9772.html
   #- icon: cv
     #icon_pack: ai
     #link: files/cv.pdf
