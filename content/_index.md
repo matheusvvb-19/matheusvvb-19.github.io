@@ -239,7 +239,7 @@ sections:
 
   - block: accomplishments
     content:
-      title: Extra-curricular Activities & Certificates
+      title: Extracurricular Activities & Certificates
       subtitle: ''
       text: ''
       # Date format: https://wowchemy.com/docs/customization/#date-format

@@ -46,5 +46,8 @@ tags:
 - Simulation environments
 links:
 - name: arXiv
+  icon: arxiv
+  icon_pack: ai
   url: https://arxiv.org/abs/2405.19202
 ---
+{{< metrics >}}

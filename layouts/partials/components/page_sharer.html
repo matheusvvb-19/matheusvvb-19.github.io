@@ -1,0 +1,68 @@
+{{/* -------------------------------------------------------------
+  Check if sharing is enabled for this page
+  - Render share box only if `.Params.share` is not explicitly false
+------------------------------------------------------------- */}}
+{{ if ne .Params.share false }}
+<div class="share-box">
+  <ul class="share">
+
+    {{/* -------------------------------------------------------------
+      Loop through all share buttons defined in `site.Data.page_sharer.buttons`
+      - Only include buttons where "enable" is true
+      - Skip buttons with ID "weibo"
+    ------------------------------------------------------------- */}}
+    {{ range where site.Data.page_sharer.buttons "enable" true }}
+      {{ if ne .id "weibo" }}
+
+        {{/* -------------------------------------------------------------
+          Determine icon pack (default to "fas")
+          - Adjust prefix for FontAwesome packs: fab, fas, far, fal
+        ------------------------------------------------------------- */}}
+        {{ $pack := or .icon_pack "fas" }}
+        {{ $pack_prefix := $pack }}
+        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+          {{ $pack_prefix = "fa" }}
+        {{ end }}
+
+        {{/* -------------------------------------------------------------
+          Override icon for Twitter to use new "X" logo
+        ------------------------------------------------------------- */}}
+        {{ $icon := .icon }}
+        {{ if eq .id "twitter" }}
+          {{ $icon = "x-twitter" }}
+        {{ end }}
+
+        {{/* -------------------------------------------------------------
+          Replace placeholders in share URL
+          - {url} -> page permalink, encoded for URL
+          - {title} -> page title, encoded for URL
+        ------------------------------------------------------------- */}}
+        {{ $link := replace .url "{url}" ($.Permalink | urlquery) }}
+        {{ $link = replace $link "{title}" ($.Title | urlquery) }}
+
+        {{/* -------------------------------------------------------------
+          Workaround for mailto links
+          - urlquery encodes "+" as "%2B" and spaces as "+"
+          - Replace "+" back to "%20" for correct mailto URLs
+        ------------------------------------------------------------- */}}
+        {{ if eq (urls.Parse $link).Scheme "mailto" }}
+          {{ $link = replace $link "+" "%20" }}
+        {{ end }}
+
+        {{/* -------------------------------------------------------------
+          Render the share button as a list item
+          - Open link in a new tab with `rel="noopener"`
+          - Use dynamic icon and icon pack
+        ------------------------------------------------------------- */}}
+        <li>
+          <a href="{{$link | safeURL}}" target="_blank" rel="noopener" class="share-btn-{{.id}}" aria-label="{{.icon}}">
+            <i class="{{$pack}} {{$pack_prefix}}-{{$icon}}"></i>
+          </a>
+        </li>
+
+      {{ end }}
+    {{ end }}
+
+  </ul>
+</div>
+{{ end }}
