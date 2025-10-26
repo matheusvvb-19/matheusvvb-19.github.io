@@ -13,6 +13,7 @@ sections:
       username: admin
   
   - block: experience
+    id: education
     content:
       title: Education
       # Date format for experience
@@ -69,6 +70,7 @@ sections:
       columns: '1'
 
   - block: experience
+    id: research_experience
     content:
       title: Research Experience
       # Date format for experience
@@ -109,6 +111,7 @@ sections:
       columns: '1'
 
   - block: experience
+    id: teaching_experience
     content:
       title: Teaching Experience
       # Date format for experience
@@ -149,6 +152,7 @@ sections:
       columns: '1'
 
   - block: experience
+    id: working_experience
     content:
       title: Working Experience
       # Date format for experience
@@ -176,6 +180,7 @@ sections:
       columns: '1'
   
   - block: accomplishments
+    id: awards_scholarships
     content:
       title: Awards & Scholarships
       subtitle: ''
@@ -238,6 +243,7 @@ sections:
       columns: '1'
 
   - block: accomplishments
+    id: extracurricular
     content:
       title: Extracurricular Activities & Certificates
       subtitle: ''
@@ -264,7 +270,7 @@ sections:
           date_end: ''
           date_start: '2021-05-10'
           description: ''
-          icon: coursera
+          icon: org-duke
           organization: Duke University
           organization_url: https://duke.edu/
           url: ''
@@ -282,7 +288,7 @@ sections:
           date_end: ''
           date_start: '2020-12-01'
           description: ''
-          icon: coursera
+          icon: org-deeplearningai
           organization: DeepLearning.AI
           organization_url: https://www.deeplearning.ai/
           url: ''
@@ -295,23 +301,23 @@ sections:
           organization: University of Michigan
           organization_url: https://umich.edu/
           url: ''
-        - title: Machine Learning Foundations - A Case Study Approach
+        - title: Machine Learning Foundations&#58; A Case Study Approach
           certificate_url: https://www.coursera.org/account/accomplishments/certificate/98W7YZ4Q5GFE
           date_end: ''
           date_start: '2020-10-01'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
+          icon: org-washington
+          organization: University of Washington
+          organization_url: https://www.washington.edu/
           url: ''
-        - title: Mathematics for Machine Learning - Linear Algebra
+        - title: Mathematics for Machine Learning&#58; Linear Algebra
           certificate_url: https://www.coursera.org/account/accomplishments/certificate/79L2JSH7AA43
           date_end: ''
           date_start: '2020-09-01'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
+          icon: org-imperial
+          organization: Imperial College London
+          organization_url: https://www.imperial.ac.uk/
           url: ''
         - title: Introduction to R Programming Language
           certificate_url: https://drive.google.com/file/d/1SER820UvOPbPGIUxtRsS9jEBeqClfi4d/view?usp=sharing
