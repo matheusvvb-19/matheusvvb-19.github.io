@@ -6,6 +6,14 @@ fapesp:
   definition: 
   category: funding_agency
 
+datacamp:
+  term: DataCamp
+  abbrv:
+  url: https://www.datacamp.com/
+  icon: org-datacamp
+  definition:
+  category: company
+
 fundep:
   term: Research Development Foundation
   abbr: Fundep

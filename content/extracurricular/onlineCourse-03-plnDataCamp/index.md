@@ -2,7 +2,7 @@
 title: Natural Language Processing in Python Track
 
 # Organization information:
-org_name: DataCamp
+org_name: datacamp
 org_icon: datacamp
 org_url: https://app.datacamp.com/
 
