@@ -175,169 +175,93 @@ sections:
           <ul style="margin-left:0; padding-left:0; list-style-position: inside">
             <li>Worked as an undergraduate intern in BTG Pactual's Summer Tech vacation internship program</li>
             <li>Part of the automation team, developing Robotic Process Automation (RPA) programs using the UiPath tool</li>
+          </ul>
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
   
-  - block: accomplishments
+  - block: portfolio
     id: awards_scholarships
     content:
       title: Awards & Scholarships
-      subtitle: ''
-      text: ''
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `items` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: MSc research fellowship
-          certificate_url: 
-          date_end: '2026-11-01'
-          date_start: '2024-10-01'
-          description: 'Grant 29271.02.01/2022.04-00'
-          icon: org-fundep
-          organization: Research Development Foundation (Fundep)
-          organization_url: https://www.fundep.ufmg.br/
-          url: ''
-        - title: Honorable Mention - WebMedia'24 Undergraduate Research Track
-          certificate_url: https://drive.google.com/file/d/1AS6vMlziYdOcP0tQEKwYPyyq0t7MbSjS/view?usp=drive_link
-          date_end: ''
-          date_start: '2024-10-01'
-          description: ''
-          icon: org-webmedia
-          organization: WebMedia'24
-          organization_url: https://webmedia.org.br/en/2024/
-          url: ''
-        - title: Undergraduate research fellowship
-          certificate_url: 
-          date_end: '2024-09-01'
-          date_start: '2024-01-01'
-          description: 'Grant 29271.02.01/2022.04-00'
-          icon: org-fundep
-          organization: Research Development Foundation (Fundep)
-          organization_url: https://www.fundep.ufmg.br/
-          url: ''
-        - title: Undergraduate research internship abroad
-          certificate_url: 'https://drive.google.com/file/d/1HFLjeCycuqbZ4ubrPRkg9ojXZo3_HHPz/view?usp=sharing'
-          date_end: '2022-12-10'
-          date_start: '2022-09-01'
-          description: 'Grant 2022/07236-9'
-          icon: org-fapesp
-          organization: São Paulo Research Foundation (FAPESP)
-          organization_url: https://fapesp.br/
-          url: ''
-        - title: Undergraduate research fellowship
-          certificate_url: 'https://drive.google.com/file/d/1fn0eJqytczgGrMdsCWP7Y8tYsFJn_UHD/view?usp=sharing'
-          date_end: '2023-04-01'
-          date_start: '2022-01-01'
-          description: 'Grant 2021/13054-8'
-          icon: org-fapesp
-          organization: São Paulo Research Foundation (FAPESP)
-          organization_url: https://fapesp.br/
-          url: ''
+      subtitle: 
+      text: 
+      # Display content from the `content/extracurricular/` folder
+      filters:
+        folders:
+          - extracurricular
+        tags: 
+          - award
+          - scholarship
+        #exclude_tags:
+          #- award
+          #- scholarship
+      # Field to sort by, such as Date or Title
+      sort_by: 'date_start'
+      sort_ascending: false
+      # Default portfolio filter button
+      # 0 corresponds to the first button below and so on
+      # For example, 0 will default to showing all content as the first button below shows content with *any* tag
+      default_button_index: 0
+      # Filter button toolbar (optional).
+      # Add or remove as many buttons as you like.
+      # To show all content, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the button toolbar, delete the entire `buttons` block.
+      #buttons:
+        #- name: All
+          #tag: '*'
+        
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-
-  - block: accomplishments
+      # Choose your content listing view - here we use the `showcase` view
+      view: community/awards_scholarships_acomplishments
+      # For the Showcase view, do you want to flip alternate rows?
+      flip_alt_rows: true
+  
+  - block: portfolio
     id: extracurricular
     content:
       title: Extracurricular Activities & Certificates
-      subtitle: ''
-      text: ''
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `items` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Training in Artificial Intelligence
-          certificate_url: https://drive.google.com/file/d/1fYfMbGIRjWPrXpmo54T75iD0f1gbKHNJ/view?usp=sharing
-          date_end: ''
-          date_start: '2023-09-01'
-          description: ''
-          icon: org-unicamp
-          organization: State University of Campinas (UNICAMP)
-          organization_url: https://unicamp.br/
-          url: ''
-        - title: Introduction to Machine Learning
-          certificate_url: https://www.coursera.org/account/accomplishments/certificate/RDSL56LM6W55
-          date_end: ''
-          date_start: '2021-05-10'
-          description: ''
-          icon: org-duke
-          organization: Duke University
-          organization_url: https://duke.edu/
-          url: ''
-        - title: Natural Language Processing in Python Track
-          certificate_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/6948f59295ee24094b25f1f4bc438679f2309882
-          date_end: ''
-          date_start: '2021-01-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://app.datacamp.com/
-          url: ''
-        - title: Deep Learning Specialization
-          certificate_url: https://www.coursera.org/account/accomplishments/certificate/HZADZURB82VM
-          date_end: ''
-          date_start: '2020-12-01'
-          description: ''
-          icon: org-deeplearningai
-          organization: DeepLearning.AI
-          organization_url: https://www.deeplearning.ai/
-          url: ''
-        - title: Applied Machine Learning in Python
-          certificate_url: https://www.coursera.org/account/accomplishments/certificate/8BT39H77KXSE
-          date_end: ''
-          date_start: '2020-10-01'
-          description: ''
-          icon: org-michigan
-          organization: University of Michigan
-          organization_url: https://umich.edu/
-          url: ''
-        - title: Machine Learning Foundations&#58; A Case Study Approach
-          certificate_url: https://www.coursera.org/account/accomplishments/certificate/98W7YZ4Q5GFE
-          date_end: ''
-          date_start: '2020-10-01'
-          description: ''
-          icon: org-washington
-          organization: University of Washington
-          organization_url: https://www.washington.edu/
-          url: ''
-        - title: Mathematics for Machine Learning&#58; Linear Algebra
-          certificate_url: https://www.coursera.org/account/accomplishments/certificate/79L2JSH7AA43
-          date_end: ''
-          date_start: '2020-09-01'
-          description: ''
-          icon: org-imperial
-          organization: Imperial College London
-          organization_url: https://www.imperial.ac.uk/
-          url: ''
-        - title: Introduction to R Programming Language
-          certificate_url: https://drive.google.com/file/d/1SER820UvOPbPGIUxtRsS9jEBeqClfi4d/view?usp=sharing
-          date_end: ''
-          date_start: '2020-01-01'
-          description: 
-          icon: org-ufscar
-          organization: Federal University of São Carlos (UFSCar)
-          organization_url: https://cursos.poca.ufscar.br/
-          url: 
-        - title: Simplifying the Agile Scrum Method
-          certificate_url: https://drive.google.com/file/d/1f1lXQHLvMo7X0jHkYTnNMomdJhBsx3gZ/view?usp=sharing
-          date_end: ''
-          date_start: '2020-03-01'
-          description: ''
-          icon: org-ufscar
-          organization: Federal University of São Carlos (UFSCar)
-          organization_url: https://cursos.poca.ufscar.br/
-          url: ''
+      subtitle: 
+      text: 
+      # Display content from the `content/extracurricular/` folder
+      filters:
+        folders:
+          - extracurricular
+        #tags: 
+          #- tag
+        exclude_tags:
+          - award
+          - scholarship
+      # Field to sort by, such as Date or Title
+      sort_by: 'date_start'
+      sort_ascending: false
+      # Default portfolio filter button
+      # 0 corresponds to the first button below and so on
+      # For example, 0 will default to showing all content as the first button below shows content with *any* tag
+      default_button_index: 0
+      # Filter button toolbar (optional).
+      # Add or remove as many buttons as you like.
+      # To show all content, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the button toolbar, delete the entire `buttons` block.
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Enterpreunership
+          tag: extracurricular_enterpreunership
+        - name: Events & Community
+          tag: extracurricular_eventsCommunity
+        - name: Professional Development
+          tag: extracurricular_professionalDevelopment
+        
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
+      # Choose your content listing view - here we use the `showcase` view
+      view: community/awards_scholarships_acomplishments
+      # For the Showcase view, do you want to flip alternate rows?
+      flip_alt_rows: true
 ---

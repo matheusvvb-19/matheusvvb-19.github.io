@@ -1,0 +1,63 @@
+fapesp:
+  term: São Paulo Research Foundation
+  abbr: FAPESP
+  url: https://fapesp.br/
+  icon: org-fapesp
+  definition: 
+  category: funding_agency
+
+fundep:
+  term: Research Development Foundation
+  abbr: Fundep
+  url: https://www.fundep.ufmg.br/
+  icon: org-fundep
+  definition: 
+  category: funding_agency
+
+unicamp:
+  term: State University of Campinas
+  abbr: UNICAMP
+  url: https://unicamp.br/
+  icon: org-unicamp
+  definition:
+  category: university
+
+webmedia24:
+  term: Simpósio Brasileiro de Sistemas Multimídia e Web
+  abbr: WebMedia
+  url: https://webmedia.org.br/en/2024/
+  icon: org-webmedia
+  definition: 
+  category: conference
+
+ufscar:
+  term: Federal University of São Carlos
+  abbr: UFSCar
+  url: https://www.ufscar.br/
+  icon: org-ufscar
+  definition:
+  category: university
+
+uchile:
+  term: University of Chile
+  abbr: 
+  url: https://uchile.cl/
+  icon: org-uchile
+  definition:
+  category: university
+
+thi:
+  term: Technische Hochschule Ingolstadt
+  abbr: THI
+  url: https://www.thi.de/
+  icon: org-thi
+  definition:
+  category: university
+
+uos:
+  term: University of Sheffield
+  abbr: 
+  url: https://www.sheffield.ac.uk/
+  icon: org-uos
+  definition:
+  category: university
