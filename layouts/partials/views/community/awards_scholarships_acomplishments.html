@@ -33,7 +33,11 @@
       {{/* Organization logo with link */}}
       <div class="mr-2 mb-2">
         <a href="{{ $url }}" target="_blank" rel="noopener">
-          <img src="/media/icons/custom/{{ $icon }}.svg" width="56" height="56" alt="{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}" loading="lazy">
+          {{ if $acronym }}
+            <img src="/media/icons/custom/{{ $icon }}.svg" width="56" height="56" alt="{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}" loading="lazy">
+          {{ else }}
+            <img src="/media/icons/brands/{{ $icon }}.svg" width="56" height="56" alt="{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}" loading="lazy">
+          {{ end }}
         </a>
       </div>
 
@@ -73,8 +77,8 @@
     {{ $role := $item.Params.my_role }}
     {{ $desc := $item.Params.description }}
     {{ if or $grant (or $role $desc) }}
-      <div class="card-text">
-        <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+      <div class="card-text" style="padding-bottom: 0rem !important;">
+        <ul style="margin-left:0; margin-bottom:0; padding-left:0; list-style-position: inside">
           {{ with $grant }}<li>Grant: {{ . }}</li>{{ end }}
           {{ with $role }}<li>Role: {{ . }}</li>{{ end }}
           {{ with $desc }}

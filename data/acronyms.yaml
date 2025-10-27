@@ -23,7 +23,7 @@ unicamp:
   category: university
 
 webmedia24:
-  term: Simpósio Brasileiro de Sistemas Multimídia e Web
+  term: 30th Brazilian Symposium on Multimedia and Web Systems
   abbr: WebMedia
   url: https://webmedia.org.br/en/2024/
   icon: org-webmedia
@@ -61,3 +61,51 @@ uos:
   icon: org-uos
   definition:
   category: university
+
+duke:
+  term: Duke University
+  abbr: 
+  url: https://duke.edu/
+  icon: org-duke
+  definition:
+  category: university
+
+deeplearningai:
+  term: DeepLearning.AI
+  abbr:
+  url: https://www.deeplearning.ai/
+  icon: org-deeplearningai
+  definition:
+  category: company
+
+umichigan:
+  term: University of Michigan
+  abbr:
+  url: https://umich.edu/
+  icon: org-michigan
+  definition:
+  category: university
+
+uwashington:
+  term: University of Washington
+  abbr:
+  url: https://www.washington.edu/
+  icon: org-washington
+  definition:
+  category: university
+
+imperialLondon:
+  term: Imperial College London
+  abbr:
+  url: https://www.imperial.ac.uk/
+  icon: org-imperialLondon
+  definition:
+  category: university
+
+beetsjr:
+  term: Beets Jr.
+  abbr: 
+  url: https://www.beetsjr.com.br/
+  icon: org-beetsjr
+  definition:
+  category: company
