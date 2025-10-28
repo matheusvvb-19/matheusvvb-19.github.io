@@ -15,6 +15,12 @@ a[href^="/author/"] {
   text-decoration: none; /* Remove o sublinhado, se houver */
 }
 
+.card-body .d-flex.align-content-start .mr-2.mb-2 img {
+  height: 56px !important;
+  max-width: none !important;
+  display: block;
+}
+
 @media (min-width: 768px) {
   .col-md-5 {
     flex: 0 0 100% !important;
