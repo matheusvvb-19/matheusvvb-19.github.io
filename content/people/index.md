@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: people
     content:
-      title: Team
+      title: People
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
@@ -15,11 +15,11 @@ sections:
           - Current supervisor(s)
           - Past supervisor(s)
           - Researchers
-          - Grad Students
-          - Administration
+          - Undergraduate student(s)
+          - MSc student(s)
+          - PhD student(s)
           - Visitors
           - Alumni
-          - Co-authors
       sort_by: Params.last_name
       sort_ascending: true
     design:

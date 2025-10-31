@@ -42,6 +42,6 @@ main:
     url: publication
     weight: 30
 
-  - name: Team
+  - name: People
     url: people
     weight: 40
