@@ -1,5 +1,5 @@
 ---
-title: 'District 36: meeting of junior enterprises from the Campinas center'
+title: 'District 36: Meeting of Junior Enterprises from the Campinas Center'
 
 # Organization information:
 org_name: nuca
