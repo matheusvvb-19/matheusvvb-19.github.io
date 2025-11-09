@@ -1,6 +1,9 @@
 ---
 title: Introduction to R Programming Language
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: ufscar
 

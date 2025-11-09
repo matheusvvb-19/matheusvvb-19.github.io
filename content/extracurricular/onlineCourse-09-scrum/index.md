@@ -1,6 +1,9 @@
 ---
 title: Simplifying the Agile Scrum Method
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: ufscar
 

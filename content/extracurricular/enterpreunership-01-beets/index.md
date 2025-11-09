@@ -1,6 +1,9 @@
 ---
 title: 'Beets Jr: junior enterprise'
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: beetsjr
 

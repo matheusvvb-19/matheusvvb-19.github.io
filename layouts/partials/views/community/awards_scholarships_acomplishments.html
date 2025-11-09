@@ -26,86 +26,88 @@
   {{ $abbr = $acronym.abbr }}
 {{ end }}
 
-<div class="card experience course" style="margin-bottom: 2% !important;">
-  <div class="card-body">
-    <div class="d-flex align-content-start">
+{{ if not $item.Params.hide }}
+  <div class="card experience course" style="margin-bottom: 2% !important;">
+    <div class="card-body">
+      <div class="d-flex align-content-start">
 
-      {{/* Organization logo with link */}}
-      <div class="mr-2 mb-2">
-        <a href="{{ $url }}" target="_blank" rel="noopener">
-          {{ if $acronym }}
-            <img src="/media/icons/custom/{{ $icon }}.svg" width="56px" height="56px" alt="{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}" loading="lazy">
-          {{ else }}
-            <img src="/media/icons/brands/{{ $icon }}.svg" width="56" height="56" alt="{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}" loading="lazy">
-          {{ end }}
-        </a>
-      </div>
-
-      <div>
-        {{/* Title of the item */}}
-        <div class="section-subheading card-title exp-title text-muted my-0">{{ $item.Title }}</div>
-        
-        {{/* Subtitle: organization name with optional abbreviation */}}
-        <div class="card-subtitle my-0 article-metadata">
-          <a href="{{ $url }}" target="_blank" rel="noopener">{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}</a>
-
-          <span class="middot-divider"></span>
-
-          {{/* Date display logic */}}
-          {{ $start := $item.Params.date_start }}
-          {{ $end := $item.Params.date_end }}
-
-          {{ if and $start $end }}
-            {{/* If start and end are equal, display only start */}}
-            {{ if eq (time.Format "2006-01-02" (time $start)) (time.Format "2006-01-02" (time $end)) }}
-              <span>{{ $start | time.Format "Jan 2006" }}</span>
+        {{/* Organization logo with link */}}
+        <div class="mr-2 mb-2">
+          <a href="{{ $url }}" target="_blank" rel="noopener">
+            {{ if $acronym }}
+              <img src="/media/icons/custom/{{ $icon }}.svg" width="56px" height="56px" alt="{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}" loading="lazy">
             {{ else }}
-              {{/* Otherwise display start – end */}}
-              <span>{{ $start | time.Format "Jan 2006" }} &ndash; {{ $end | time.Format "Jan 2006" }}</span>
+              <img src="/media/icons/brands/{{ $icon }}.svg" width="56" height="56" alt="{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}" loading="lazy">
             {{ end }}
-          {{ else if $start }}
-            {{/* If only start is defined, show "start – Present" */}}
-            <span>{{ $start | time.Format "Jan 2006" }} &ndash; Present</span>
-          {{ end }}
+          </a>
+        </div>
 
+        <div>
+          {{/* Title of the item */}}
+          <div class="section-subheading card-title exp-title text-muted my-0">{{ $item.Title }}</div>
+          
+          {{/* Subtitle: organization name with optional abbreviation */}}
+          <div class="card-subtitle my-0 article-metadata">
+            <a href="{{ $url }}" target="_blank" rel="noopener">{{ $name }}{{ if $abbr }} ({{ $abbr }}){{ end }}</a>
+
+            <span class="middot-divider"></span>
+
+            {{/* Date display logic */}}
+            {{ $start := $item.Params.date_start }}
+            {{ $end := $item.Params.date_end }}
+
+            {{ if and $start $end }}
+              {{/* If start and end are equal, display only start */}}
+              {{ if eq (time.Format "2006-01-02" (time $start)) (time.Format "2006-01-02" (time $end)) }}
+                <span>{{ $start | time.Format "Jan 2006" }}</span>
+              {{ else }}
+                {{/* Otherwise display start – end */}}
+                <span>{{ $start | time.Format "Jan 2006" }} &ndash; {{ $end | time.Format "Jan 2006" }}</span>
+              {{ end }}
+            {{ else if $start }}
+              {{/* If only start is defined, show "start – Present" */}}
+              <span>{{ $start | time.Format "Jan 2006" }} &ndash; Present</span>
+            {{ end }}
+
+          </div>
         </div>
       </div>
-    </div>
 
-    {{/* Grant number, role, and multiline description */}}
-    {{ $grant := $item.Params.grant_number }}
-    {{ $role := $item.Params.my_role }}
-    {{ $desc := $item.Params.description }}
-    {{ if or $grant (or $role $desc) }}
-      <div class="card-text" style="padding-bottom: 0rem !important;">
-        <ul style="margin-left:0; margin-bottom:0; padding-left:0; list-style-position: inside">
-          {{ with $grant }}<li>Grant: {{ . }}</li>{{ end }}
-          {{ with $role }}<li>Role: {{ . }}</li>{{ end }}
-          {{ with $desc }}
-            {{/* Split description by newlines and create a list item for each line */}}
-            {{ $lines := split . "\n" }}
-            {{ range $lines }}
-              {{ if . }}<li>{{ . | markdownify }}</li>{{ end }}
+      {{/* Grant number, role, and multiline description */}}
+      {{ $grant := $item.Params.grant_number }}
+      {{ $role := $item.Params.my_role }}
+      {{ $desc := $item.Params.description }}
+      {{ if or $grant (or $role $desc) }}
+        <div class="card-text" style="padding-bottom: 0rem !important;">
+          <ul style="margin-left:0; margin-bottom:0; padding-left:0; list-style-position: inside">
+            {{ with $grant }}<li>Grant: {{ . }}</li>{{ end }}
+            {{ with $role }}<li>Role: {{ . }}</li>{{ end }}
+            {{ with $desc }}
+              {{/* Split description by newlines and create a list item for each line */}}
+              {{ $lines := split . "\n" }}
+              {{ range $lines }}
+                {{ if . }}<li>{{ . | markdownify }}</li>{{ end }}
+              {{ end }}
             {{ end }}
-          {{ end }}
-        </ul>
-      </div>
-    {{ end }}
+          </ul>
+        </div>
+      {{ end }}
 
-    {{/* Optional links: certificate and project */}}
-    {{ if $item.Params.certificate_url }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.certificate_url }}" target="_blank" rel="noopener">
-        <i class="fa-regular fa-file-pdf mr-1"></i>
-        Certificate
-      </a>
-    {{ end }}
+      {{/* Optional links: certificate and project */}}
+      {{ if $item.Params.certificate_url }}
+        <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.certificate_url }}" target="_blank" rel="noopener">
+          <i class="fa-regular fa-file-pdf mr-1"></i>
+          Certificate
+        </a>
+      {{ end }}
 
-    {{ if $item.Params.project_url }}
-      <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.project_url }}" target="_blank" rel="noopener">
-        <i class="fa fa-sitemap mr-1"></i>
-        Project
-      </a>
-    {{ end }}
+      {{ if $item.Params.project_url }}
+        <a class="btn btn-outline-primary btn-page-header btn-sm" href="{{ $item.Params.project_url }}" target="_blank" rel="noopener">
+          <i class="fa fa-sitemap mr-1"></i>
+          Project
+        </a>
+      {{ end }}
 
+    </div>
   </div>
-</div>
+{{ end }}

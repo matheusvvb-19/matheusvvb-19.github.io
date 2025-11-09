@@ -1,6 +1,9 @@
 ---
 title: Undergraduate research internship abroad
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: fapesp
 

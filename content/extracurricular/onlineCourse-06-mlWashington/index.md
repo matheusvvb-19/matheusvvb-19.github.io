@@ -1,6 +1,9 @@
 ---
 title: 'Machine Learning Foundations: A Case Study Approach'
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: uwashington
 

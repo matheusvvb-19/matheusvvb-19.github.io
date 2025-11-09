@@ -1,6 +1,9 @@
 ---
 title: Introduction to Machine Learning
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: duke
 

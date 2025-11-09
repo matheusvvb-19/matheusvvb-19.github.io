@@ -6,6 +6,14 @@ fapesp:
   definition: 
   category: funding_agency
 
+secot:
+  term: Computer and Technology Week
+  abbr: SeCoT
+  url: https://secot.com.br/
+  icon: org-secot
+  definition: 
+  category: event
+
 nuca:
   term: Campinas Center of Junior Enterprises
   abbr: 

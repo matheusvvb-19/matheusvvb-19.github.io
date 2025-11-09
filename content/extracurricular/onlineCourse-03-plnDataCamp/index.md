@@ -1,6 +1,9 @@
 ---
 title: Natural Language Processing in Python Track
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: datacamp
 org_icon: datacamp

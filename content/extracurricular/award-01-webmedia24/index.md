@@ -1,6 +1,9 @@
 ---
 title: Honorable Mention - WebMedia'24 Undergraduate Research Track
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: webmedia24
 

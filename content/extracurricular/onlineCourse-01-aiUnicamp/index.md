@@ -1,6 +1,9 @@
 ---
 title: Training in Artificial Intelligence
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: unicamp
 

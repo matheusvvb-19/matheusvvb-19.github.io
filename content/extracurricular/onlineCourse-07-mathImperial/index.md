@@ -1,6 +1,9 @@
 ---
 title: 'Mathematics for Machine Learning: Linear Algebra'
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: imperialLondon
 

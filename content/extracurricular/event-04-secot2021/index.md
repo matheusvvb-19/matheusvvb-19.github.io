@@ -1,22 +1,22 @@
 ---
-title: 30th Brazilian Symposium on Multimedia and Web Systems
+title: XIII Computer and Technology Week
 
 # Hide entry:
 hide: false
 
 # Organization information:
-org_name: webmedia24
+org_name: secot
 
 # Activity-related information:
-date_start: '2024-10-14'
-date_end: '2024-10-14'
+date_start: '2021-08-23'
+date_end: '2021-08-23'
 grant_number: 
 my_role: 
 description: #|-
-    Participant
+    Organizer
 
 # Activity-outcomes-related information:
-certificate_url: https://drive.google.com/file/d/1R38auDI3Mun0q5VAk8Lt8PUkBcEEv7PD/view?usp=sharing
+certificate_url: https://drive.google.com/file/d/1T0Wc3XeCRggA2PUUFkUPCRrGu062h1Ip/view?usp=sharing
 project_url: 
 
 # Activity category:

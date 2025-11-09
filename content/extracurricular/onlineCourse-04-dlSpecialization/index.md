@@ -1,6 +1,12 @@
 ---
 title: Deep Learning Specialization
 
+# Hide entry:
+hide: false
+
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: deeplearningai
 

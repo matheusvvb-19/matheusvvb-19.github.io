@@ -236,7 +236,7 @@ sections:
           - award
           - scholarship
       # Field to sort by, such as Date or Title
-      sort_by: 'date_start'
+      sort_by: 'date_end'
       sort_ascending: false
       # Default portfolio filter button
       # 0 corresponds to the first button below and so on

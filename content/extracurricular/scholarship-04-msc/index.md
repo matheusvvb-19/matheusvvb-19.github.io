@@ -1,6 +1,9 @@
 ---
 title: MSc research fellowship
 
+# Hide entry:
+hide: false
+
 # Organization information:
 org_name: fundep
 
