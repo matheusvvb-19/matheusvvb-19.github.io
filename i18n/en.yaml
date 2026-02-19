@@ -110,6 +110,9 @@
 - id: user_profile_latest
   translation: Latest
 
+- id: professional_summary
+  translation: Professional summary
+
 # Countdown widget
 
 - id: days
