@@ -26,9 +26,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: MSc in Computer Science
-          company: Federal University of São Carlos (UFSCar)
-          company_url: 'https://www.ufscar.br/'
-          company_logo: org-ufscar
+          org_name: ufscar
           location: Sorocaba, Brazil
           date_start: '2024-10-14'
           date_end: ''
@@ -39,9 +37,7 @@ sections:
               <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science (PPGCC)</a>, machine learning and natural language processing thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory (LaSID)</a></li>
             </ul>
         - title: BSc Exchange Student
-          company: University of Chile
-          company_url: 'https://uchile.cl/'
-          company_logo: org-uchile
+          org_name: uchile
           location: Santiago, Chile
           date_start: '2022-03-01'
           date_end: '2022-07-01'
@@ -52,9 +48,7 @@ sections:
               <li>Spatial and demographic data analysis applied to decision-making, building interactive maps and dashboards using QGIS and Power BI</li>
             </ul>
         - title: BSc in Computer Science
-          company: Federal University of São Carlos (UFSCar)
-          company_url: 'https://www.sorocaba.ufscar.br/'
-          company_logo: org-ufscar
+          org_name: ufscar
           location: Sorocaba, Brazil
           date_start: '2019-03-14'
           date_end: '2024-09-01'
@@ -83,9 +77,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Graduate Academic Visitor
-          company: Technische Hochschule Ingolstadt (THI)
-          company_url: 'https://www.thi.de/'
-          company_logo: org-thi
+          org_name: thi
           location: Ingolstadt, Germany
           date_start: '2025-08-04'
           date_end: ''
@@ -95,9 +87,7 @@ sections:
               <li>Collaboration with the <a href="https://www.thi.de/en/research/carissma/c-iad/" target="_blank">Institute of Automated Driving (C-IAD)</a> at the <a href="https://www.thi.de/en/research/carissma/" target="_blank">Center of Automotive Research on Integrated Safety Systems and Measurement Area (CARISSMA)</a></li>
             </ul>
         - title: Undergraduate Academic Visitor
-          company: University of Sheffield
-          company_url: 'https://www.sheffield.ac.uk/'
-          company_logo: org-uos
+          org_name: uos
           location: Sheffield, United Kingdom
           date_start: '2022-09-01'
           date_end: '2022-12-10'
@@ -105,6 +95,16 @@ sections:
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
               <li>Fully-funded international undergraduate research internship supervised by Dr. Carolina E. Scarton</li>
               <li>Collaborated with the <a href="https://sheffield.ac.uk/cs/research/groups/natural-language-processing" target="_blank">Natural Language Processing (NLP) Research Group</a> at the <a href="https://www.sheffield.ac.uk/cs" target="_blank">School of Computer Science</a>, investigating the use of deep bidirectional transformers to uncover latent knowledge from unstructured biomedical cancer literature</li>
+            </ul>
+        - title: Undergraduate Researcher
+          org_name: fapesp
+          location: Sorocaba, Brazil
+          date_start: '2022-01-01'
+          date_end: '2023-05-01'
+          description: >
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>Full-time and funded undergraduate research project development</li>
+              <li>Project title: Discovery of latent knowledge in medical articles on Acute Myeloid Leukemia</li>
             </ul>
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -124,9 +124,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Graduate Assistant
-          company: Federal University of São Carlos (UFSCar)
-          company_url: 'https://www.ufscar.br/'
-          company_logo: org-ufscar
+          org_name: ufscar
           location: Sorocaba, Brazil
           date_start: '2025-03-31'
           date_end: '2025-07-31'
@@ -136,9 +134,7 @@ sections:
               <li>Designed and proposed assignments aligned with course objectives, delivered lectures on core topics</li>
             </ul>
         - title: Undergraduate Assistant
-          company: Federal University of São Carlos (UFSCar)
-          company_url: 'https://www.ufscar.br/'
-          company_logo: org-ufscar
+          org_name: ufscar
           location: Sorocaba, Brazil
           date_start: '2020-09-01'
           date_end: '2021-01-01'
@@ -165,9 +161,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
       - title: Summer Tech Intern
-        company: BTG Pactual
-        company_url: 'https://www.btgpactual.com/'
-        company_logo: org-btg
+        org_name: btg
         location: São Paulo, Brazil
         date_start: '2020-12-01'
         date_end: '2021-02-01'

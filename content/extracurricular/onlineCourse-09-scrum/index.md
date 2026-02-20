@@ -16,7 +16,7 @@ description: #|-
     Online course
 
 # Activity-outcomes-related information:
-certificate_url: https://drive.google.com/file/d/1f1lXQHLvMo7X0jHkYTnNMomdJhBsx3gZ/view?usp=sharing
+certificate_url: #https://drive.google.com/file/d/1f1lXQHLvMo7X0jHkYTnNMomdJhBsx3gZ/view?usp=sharing
 project_url: 
 
 # Activity category:

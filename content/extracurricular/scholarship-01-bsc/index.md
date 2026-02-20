@@ -15,7 +15,7 @@ my_role:
 description: #|-
 
 # Activity-outcomes-related information:
-certificate_url: https://drive.google.com/file/d/1fn0eJqytczgGrMdsCWP7Y8tYsFJn_UHD/view?usp=sharing
+certificate_url: #https://drive.google.com/file/d/1fn0eJqytczgGrMdsCWP7Y8tYsFJn_UHD/view?usp=sharing
 project_url: 
 
 # Activity category:

@@ -16,7 +16,7 @@ description: #|-
     Online course
 
 # Activity-outcomes-related information:
-certificate_url: https://www.coursera.org/account/accomplishments/certificate/98W7YZ4Q5GFE
+certificate_url: #https://www.coursera.org/account/accomplishments/certificate/98W7YZ4Q5GFE
 project_url: 
 
 # Activity category:

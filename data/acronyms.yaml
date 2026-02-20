@@ -133,3 +133,11 @@ beetsjr:
   icon: org-beetsjr
   definition:
   category: company
+
+btg:
+  term: BTG Pactual
+  abbr: 
+  url: https://www.btgpactual.com/
+  icon: org-btg
+  definition:
+  category: company

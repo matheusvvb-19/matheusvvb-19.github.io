@@ -16,7 +16,7 @@ description: #|-
     Leader
 
 # Activity-outcomes-related information:
-certificate_url: https://drive.google.com/file/d/1FaXzESmV0HgKTMJF3vVwYJIjpBz2oSzN/view?usp=sharing
+certificate_url: #https://drive.google.com/file/d/1FaXzESmV0HgKTMJF3vVwYJIjpBz2oSzN/view?usp=sharing
 project_url: 
 
 # Activity category:

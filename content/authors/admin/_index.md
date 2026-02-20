@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Matheus V. V. Berto
+title: Matheus Berto
 
 # Full Name (for SEO)
 first_name: Matheus
-last_name: Berto
+last_name: Vargas Volpon Berto
 
 # Is this the primary user of the site?
 superuser: true

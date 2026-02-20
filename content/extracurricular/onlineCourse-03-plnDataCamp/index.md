@@ -18,7 +18,7 @@ description: #|-
     Online course
 
 # Activity-outcomes-related information:
-certificate_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/6948f59295ee24094b25f1f4bc438679f2309882
+certificate_url: #https://www.datacamp.com/completed/statement-of-accomplishment/track/6948f59295ee24094b25f1f4bc438679f2309882
 project_url: 
 
 # Activity category:

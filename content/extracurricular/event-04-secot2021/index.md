@@ -16,7 +16,7 @@ description: #|-
     Organizer
 
 # Activity-outcomes-related information:
-certificate_url: https://drive.google.com/file/d/1T0Wc3XeCRggA2PUUFkUPCRrGu062h1Ip/view?usp=sharing
+certificate_url: #https://drive.google.com/file/d/1T0Wc3XeCRggA2PUUFkUPCRrGu062h1Ip/view?usp=sharing
 project_url: 
 
 # Activity category:

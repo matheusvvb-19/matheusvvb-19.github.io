@@ -16,7 +16,7 @@ description: #|-
     Online course
 
 # Activity-outcomes-related information:
-certificate_url: https://www.coursera.org/account/accomplishments/certificate/RDSL56LM6W55
+certificate_url: #https://www.coursera.org/account/accomplishments/certificate/RDSL56LM6W55
 project_url: 
 
 # Activity category:

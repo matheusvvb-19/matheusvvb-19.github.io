@@ -13,7 +13,7 @@ description: #|-
     Online course
 
 # Activity-outcomes-related information:
-certificate_url: https://www.coursera.org/account/accomplishments/certificate/8BT39H77KXSE
+certificate_url: #https://www.coursera.org/account/accomplishments/certificate/8BT39H77KXSE
 project_url: 
 
 # Activity category:

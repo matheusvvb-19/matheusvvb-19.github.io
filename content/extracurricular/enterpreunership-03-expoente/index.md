@@ -16,7 +16,7 @@ description: #|-
     Participant
 
 # Activity-outcomes-related information:
-certificate_url: https://drive.google.com/file/d/14yEjX29ZxtFSOXctqekc_k21GeAlZvih/view?usp=sharing
+certificate_url: #https://drive.google.com/file/d/14yEjX29ZxtFSOXctqekc_k21GeAlZvih/view?usp=sharing
 project_url: 
 
 # Activity category:

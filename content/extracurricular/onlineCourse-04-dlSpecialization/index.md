@@ -19,7 +19,7 @@ description: #|-
     Online course
 
 # Activity-outcomes-related information:
-certificate_url: https://www.coursera.org/account/accomplishments/certificate/HZADZURB82VM
+certificate_url: #https://www.coursera.org/account/accomplishments/certificate/HZADZURB82VM
 project_url: 
 
 # Activity category:
