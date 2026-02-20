@@ -24,12 +24,24 @@ a[href^="/author/"] {
   display: block;
 }
 
+.home-section:first-of-type {
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-section:first-of-type {
+    padding-top: 40px;
+  }
+}
+
 .portrait-title h2 {
   font-weight: 400;
 }
 
 .avatar {
   border: 3px solid white;
+  width: 200px;
+  height: auto;
 }
 
 @media (min-width: 768px) {
@@ -59,4 +71,63 @@ a[href^="/author/"] {
 .skip-to-top:hover {
   opacity: 100%;
   color: #1565c0;
+}
+
+
+:root {
+  --icon-bg: rgba(13, 110, 253, 0.12);
+  --icon-bg-hover: rgba(13, 110, 253, 0.22);
+  --icon-color: #0d6efd;
+}
+
+.dark {
+  --icon-bg: rgba(13, 110, 253, 0.25);
+  --icon-bg-hover: rgba(13, 110, 253, 0.35);
+  --icon-color: #ffffff;
+}
+
+ul.network-icon {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.network-icon li {
+  margin-right: 0px;
+}
+
+.network-icon li a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background-color: var(--icon-bg);
+  color: var(--icon-color);
+}
+
+/* Ícone */
+.network-icon li a .big-icon {
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.network-icon li a:hover {
+  background-color: var(--icon-bg-hover);
+}
+
+@media (min-width: 992px) {
+  .people-widget .col-sm-auto {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col-sm-auto.people-person {
+    padding-bottom: 10px;
+  }
 }

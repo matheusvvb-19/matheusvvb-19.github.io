@@ -22,7 +22,7 @@ bio:
 
 interests:
   - Applied, Explainable, and Multimodal Artificial Intelligence
-  - Continual (Continuous, Incremental, or Lifelong) Learning
+  - Continual (or Incremental, Lifelong) Learning
   - Knowledge Representation and Discovery
   - Natural Language Processing
 
