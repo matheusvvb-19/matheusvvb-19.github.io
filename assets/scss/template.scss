@@ -12,6 +12,15 @@ a {
   text-decoration: none !important; /* Remove o sublinhado, se houver */
 }
 
+.course .card-subtitle a:hover {
+  text-decoration: none !important;
+  border-bottom: 0px;
+}
+
+.card .section-subheading a:hover {
+  border-bottom: 0px;
+}
+
 a[href^="/author/"] {
   pointer-events: none; /* Remove o comportamento de clique */
   cursor: default;      /* Altera o cursor para indicar que o link não está ativo */
@@ -22,6 +31,7 @@ a[href^="/author/"] {
   height: 56px !important;
   max-width: none !important;
   display: block;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .home-section:first-of-type {
@@ -130,4 +140,12 @@ ul.network-icon {
   .col-sm-auto.people-person {
     padding-bottom: 10px;
   }
+}
+
+.project-filters .btn-group {
+  gap: 8px;               
+}
+
+.btn-toolbar .btn {
+  border-radius: 15px 15px 15px 15px !important;
 }
