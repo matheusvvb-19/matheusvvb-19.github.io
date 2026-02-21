@@ -1,3 +1,15 @@
+:root {
+  --icon-bg: rgba(13, 110, 253, 0.12);
+  --icon-bg-hover: rgba(13, 110, 253, 0.22);
+  --icon-color: #0d6efd;
+}
+
+.dark {
+  --icon-bg: rgba(13, 110, 253, 0.25);
+  --icon-bg-hover: rgba(13, 110, 253, 0.35);
+  --icon-color: #ffffff;
+}
+
 // Make page header alignment consistent with widget page header alignment
 .universal-wrapper h1 {
   text-align: center;
@@ -54,6 +66,10 @@ a[href^="/author/"] {
   height: auto;
 }
 
+.dark .avatar {
+  border: 3px solid var(--icon-bg);
+}
+
 @media (min-width: 768px) {
   .col-md-5 {
     flex: 0 0 100% !important;
@@ -81,19 +97,6 @@ a[href^="/author/"] {
 .skip-to-top:hover {
   opacity: 100%;
   color: #1565c0;
-}
-
-
-:root {
-  --icon-bg: rgba(13, 110, 253, 0.12);
-  --icon-bg-hover: rgba(13, 110, 253, 0.22);
-  --icon-color: #0d6efd;
-}
-
-.dark {
-  --icon-bg: rgba(13, 110, 253, 0.25);
-  --icon-bg-hover: rgba(13, 110, 253, 0.35);
-  --icon-color: #ffffff;
 }
 
 ul.network-icon {
@@ -148,4 +151,12 @@ ul.network-icon {
 
 .btn-toolbar .btn {
   border-radius: 15px 15px 15px 15px !important;
+}
+
+ul.share {
+  gap: 8px;
+}
+
+ul.share li {
+  margin: 0px;
 }
