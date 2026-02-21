@@ -31,7 +31,7 @@ a[href^="/author/"] {
   height: 56px !important;
   max-width: none !important;
   display: block;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0 8px 20px rgba(0,0,0,0.2));
 }
 
 .home-section:first-of-type {
