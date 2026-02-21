@@ -61,13 +61,14 @@ a[href^="/author/"] {
 }
 
 .avatar {
-  border: 3px solid white;
+  border: 3px solid var(--icon-bg);
   width: 200px;
   height: auto;
 }
 
 .dark .avatar {
-  border: 3px solid var(--icon-bg);
+  border: 3px solid white;
+  
 }
 
 @media (min-width: 768px) {
