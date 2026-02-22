@@ -61,9 +61,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/matheusvvb-19
-  - icon: arxiv
-    icon_pack: ai
-    link: https://arxiv.org/a/0000-0002-6816-9772.html
+  #- icon: arxiv
+    #icon_pack: ai
+    #link: https://arxiv.org/a/0000-0002-6816-9772.html
   #- icon: cv
     #icon_pack: ai
     #link: files/cv.pdf
@@ -82,4 +82,4 @@ user_groups:
   - Me
 ---
 
-I received my Bachelor of Science (BSc) degree in Computer Science from the [Federal University of São Carlos](http://www.ufscar.br/) (UFSCar), Sorocaba campus, in 2024. During my undergraduate studies, I conducted two funded research projects in artificial intelligence (AI) and machine learning (ML), including an international research internship. I am currently a Master's (MSc) student in the [Graduate Program in Computer Science](https://www.ppgcc.ufscar.br/pt-br) (PPGCC) at UFSCar and a member of the [Intelligent Systems and Data Science Laboratory](https://lasid.dcomp.ufscar.br/) (LaSID). My MSc research focuses on applying AI and ML to intelligent traffic safety in smart cities.
+Bachelor of Science (BSc) in Computer Science and currently a Master of Science (MSc) student in the [Graduate Program in Computer Science](https://www.ppgcc.ufscar.br/pt-br) at the [Federal University of São Carlos](http://www.ufscar.br/). As a member of the [Intelligent Systems and Data Science Laboratory](https://lasid.dcomp.ufscar.br/), contributed to multiple funded research projects in artificial intelligence and machine learning, including international internships. Research activities focus on practice-oriented computational intelligence methodologies, with emphasis on adaptive and interpretable systems operating across heterogeneous data modalities.
