@@ -34,7 +34,7 @@ sections:
             _Current GPA: 3.84 / 4.0_
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
               <li>"LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction'', supervised by Dr. Tiago A. Almeida</li>
-              <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science (PPGCC)</a>, machine learning and natural language processing thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory (LaSID)</a></li>
+              <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science (PPGCC)</a>, machine learning (ML) and natural language processing (NLP) thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory</a></li>
             </ul>
         - title: BSc Exchange Student
           org_name: uchile
@@ -44,7 +44,7 @@ sections:
           description: >
             _Final score: 5.2 / 7.0_
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
-              <li>Virtual Mobility Pilot Program of the <a href="https://grupomontevideo.org/site/" target="_blank">Association of Universities of the Montevideo Group (AUGM)</a>, completed the online course "Spatial Data Analysis and Geographic Information Systems"</li>
+              <li>Virtual Mobility Pilot Program of the <a href="https://grupomontevideo.org/site/" target="_blank">Association of Universities of the Montevideo Group</a>, completed the course "Spatial Data Analysis and Geographic Information Systems" remotely</li>
               <li>Spatial and demographic data analysis applied to decision-making, building interactive maps and dashboards using QGIS and Power BI</li>
             </ul>
         - title: BSc in Computer Science
@@ -55,9 +55,9 @@ sections:
           description: >
             _Final score: 9.03 / 10.0_
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
-              <li>Received broad training in Computer Science, including topics such as artificial intelligence, data science, deep learning, and machine learning</li>
-              <li>Conducted a funded research internship abroad, which resulted in the publication of a peer-reviewed article in an international journal</li>
+              <li>Conducted a funded research internship abroad, resulting in conference and peer-reviewed publications</li>
               <li>Worked as undergraduate teaching assistant in mathematics-related disciplines and organized student-led events</li>
+              <li>Received broad training in Computer Science, including topics such as algorithms, artificial intelligence, data science, deep learning, and machine learning</li>
             </ul>
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
@@ -94,7 +94,7 @@ sections:
           description: >
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
               <li>Fully-funded international undergraduate research internship supervised by Dr. Carolina E. Scarton</li>
-              <li>Collaborated with the <a href="https://sheffield.ac.uk/cs/research/groups/natural-language-processing" target="_blank">Natural Language Processing (NLP) Research Group</a> at the <a href="https://www.sheffield.ac.uk/cs" target="_blank">School of Computer Science</a>, investigating the use of deep bidirectional transformers to uncover latent knowledge from unstructured biomedical cancer literature</li>
+              <li>Collaborated with the <a href="https://sheffield.ac.uk/cs/research/groups/natural-language-processing" target="_blank">NLP Research Group</a> at the <a href="https://www.sheffield.ac.uk/cs" target="_blank">School of Computer Science</a>, investigating the use of deep bidirectional transformers to uncover latent knowledge from unstructured biomedical cancer literature</li>
             </ul>
         - title: Undergraduate Researcher
           org_name: fapesp
