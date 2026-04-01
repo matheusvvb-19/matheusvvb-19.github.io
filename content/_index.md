@@ -34,7 +34,7 @@ sections:
             _Current GPA: 3.84 / 4.0_
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
               <li>"LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction'', supervised by Dr. Tiago A. Almeida</li>
-              <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science (PPGCC)</a>, machine learning (ML) and natural language processing (NLP) thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory</a></li>
+              <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science</a>, machine learning (ML) and natural language processing (NLP) thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory</a></li>
             </ul>
         - title: BSc Exchange Student
           org_name: uchile
