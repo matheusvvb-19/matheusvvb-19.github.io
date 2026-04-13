@@ -13,7 +13,7 @@ date_end: '2023-09-01'
 grant_number: 
 my_role: 
 description: #|-
-    Online course
+    Remote course
 
 # Activity-outcomes-related information:
 certificate_url: #https://drive.google.com/file/d/1fYfMbGIRjWPrXpmo54T75iD0f1gbKHNJ/view?usp=sharing

@@ -50,7 +50,7 @@ sections:
             </ul>
         - title: BSc Exchange Student
           org_name: uchile
-          location: Santiago, Chile
+          location: remote
           date_start: '2022-03-01'
           date_end: '2022-07-01'
           description: >
