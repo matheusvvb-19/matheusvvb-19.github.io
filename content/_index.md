@@ -162,7 +162,7 @@ sections:
       items:
       - title: Summer Tech Intern
         org_name: btg
-        location: São Paulo, Brazil
+        location: remote
         date_start: '2020-12-01'
         date_end: '2021-02-01'
         description: >
