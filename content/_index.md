@@ -36,17 +36,6 @@ sections:
               <li>"LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction'', supervised by Dr. Tiago A. Almeida</li>
               <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science</a>, machine learning (ML) and natural language processing (NLP) thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory</a></li>
             </ul>
-        - title: BSc Exchange Student
-          org_name: uchile
-          location: Santiago, Chile
-          date_start: '2022-03-01'
-          date_end: '2022-07-01'
-          description: >
-            _Final score: 5.2 / 7.0_
-            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
-              <li>Virtual Mobility Pilot Program of the <a href="https://grupomontevideo.org/site/" target="_blank">Association of Universities of the Montevideo Group</a>, completed the course "Spatial Data Analysis and Geographic Information Systems" remotely</li>
-              <li>Spatial and demographic data analysis applied to decision-making, building interactive maps and dashboards using QGIS and Power BI</li>
-            </ul>
         - title: BSc in Computer Science
           org_name: ufscar
           location: Sorocaba, Brazil
@@ -58,6 +47,17 @@ sections:
               <li>Conducted a funded research internship abroad, resulting in conference and peer-reviewed publications</li>
               <li>Worked as undergraduate teaching assistant in mathematics-related disciplines and organized student-led events</li>
               <li>Received broad training in Computer Science, including topics such as algorithms, artificial intelligence, data science, deep learning, and machine learning</li>
+            </ul>
+        - title: BSc Exchange Student
+          org_name: uchile
+          location: Santiago, Chile
+          date_start: '2022-03-01'
+          date_end: '2022-07-01'
+          description: >
+            _Final score: 5.2 / 7.0_
+            <ul style="margin-left:0; padding-left:0; list-style-position: inside">
+              <li>Virtual Mobility Pilot Program of the <a href="https://grupomontevideo.org/site/" target="_blank">Association of Universities of the Montevideo Group</a>, completed the course "Spatial Data Analysis and Geographic Information Systems" remotely</li>
+              <li>Spatial and demographic data analysis applied to decision-making, building interactive maps and dashboards using QGIS and Power BI</li>
             </ul>
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
