@@ -50,7 +50,7 @@ sections:
             </ul>
         - title: BSc Exchange Student
           org_name: uchile
-          location: remote
+          location: Brazil (remote)
           date_start: '2022-03-01'
           date_end: '2022-07-01'
           description: >
@@ -162,7 +162,7 @@ sections:
       items:
       - title: Summer Tech Intern
         org_name: btg
-        location: remote
+        location: Brazil (remote)
         date_start: '2020-12-01'
         date_end: '2021-02-01'
         description: >
