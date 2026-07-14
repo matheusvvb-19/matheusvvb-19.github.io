@@ -80,7 +80,7 @@ sections:
           org_name: thi
           location: Ingolstadt, Germany
           date_start: '2025-08-04'
-          date_end: ''
+          date_end: '2026-07-10'
           description: >
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
               <li>Fully-funded international graduate research internship on LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction</li>
