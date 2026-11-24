@@ -29,11 +29,11 @@ sections:
           org_name: ufscar
           location: Sorocaba, Brazil
           date_start: '2024-10-14'
-          date_end: ''
+          date_end: '2026-10-14'
           description: >
             _Current GPA: 3.84 / 4.0_
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
-              <li>"LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction'', supervised by Dr. Tiago A. Almeida</li>
+              <li>"Scene-conditioned generative replay for continual pedestrian trajectory prediction: an exploration across heterogeneous urban scenarios'', supervised by Dr. Tiago A. Almeida</li>
               <li><a href="https://www.ppgcc.ufscar.br/pt-br" target="_blank">Graduate Program in Computer Science</a>, machine learning (ML) and natural language processing (NLP) thematic track, <a href="https://lasid.dcomp.ufscar.br/" target="_blank">Intelligent Systems and Data Science Laboratory</a></li>
             </ul>
         - title: BSc in Computer Science
