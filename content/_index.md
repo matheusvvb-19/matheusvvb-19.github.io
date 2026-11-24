@@ -29,7 +29,7 @@ sections:
           org_name: ufscar
           location: Sorocaba, Brazil
           date_start: '2024-10-14'
-          date_end: '2026-10-14'
+          date_end: '2026-11-13'
           description: >
             _Final GPA: 3.84 / 4.0_
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
