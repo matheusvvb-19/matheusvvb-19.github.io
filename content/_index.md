@@ -83,7 +83,7 @@ sections:
           date_end: '2026-07-10'
           description: >
             <ul style="margin-left:0; padding-left:0; list-style-position: inside">
-              <li>Fully-funded international graduate research internship on LLM-based data augmentation for continuous learning models in pedestrian trajectory prediction</li>
+              <li>Fully-funded international research internship during postgraduate studies</li>
               <li>Collaboration with the <a href="https://www.thi.de/en/research/carissma/c-iad/" target="_blank">Institute of Automated Driving (C-IAD)</a> at the <a href="https://www.thi.de/en/research/carissma/" target="_blank">Center of Automotive Research on Integrated Safety Systems and Measurement Area (CARISSMA)</a></li>
             </ul>
         - title: Undergraduate Academic Visitor
